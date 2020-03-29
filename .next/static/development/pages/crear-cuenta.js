@@ -179,45 +179,41 @@ var layaout = function layaout(props) {
       columnNumber: 13
     }
   }), __jsx("link", {
+    href: "/static/css/bootstrap.min.css",
     rel: "stylesheet",
-    href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
-    integrity: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh",
-    crossorigin: "anonymous",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 13
     }
   })), __jsx("h1", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 13
     }
   }, "Header prro"), __jsx(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 13
     }
   }), __jsx("main", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 13
     }
   }, props.children), __jsx("script", {
-    src: "https://code.jquery.com/jquery-3.4.1.slim.min.js",
-    integrity: "sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n",
-    crossOrigin: "anonymous",
+    src: "/static/js/jquery-3.4.1.min.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -227,18 +223,16 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 13
     }
   }), __jsx("script", {
-    src: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-    integrity: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6",
-    crossOrigin: "anonymous",
+    src: "/static/js/bootstrap.min.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 9
+      lineNumber: 25,
+      columnNumber: 13
     }
   }));
 };
@@ -4577,7 +4571,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var firebase = _interopDefault(__webpack_require__(/*! @firebase/app */ "./node_modules/@firebase/app/dist/index.cjs.js"));
 
 var name = "firebase";
-var version = "7.12.0";
+var version = "7.13.1";
 
 /**
  * @license
@@ -5594,7 +5588,7 @@ function unique() {
 }
 /**
  *
- * @param headElement List of multiple <Head> instances
+ * @param headElements List of multiple <Head> instances
  */
 
 
@@ -9241,14 +9235,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 32,
       columnNumber: 13
     }
   }, __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 33,
       columnNumber: 17
     }
   }, "Crear Cuenta")), __jsx("div", {
@@ -9256,7 +9250,7 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 35,
       columnNumber: 13
     }
   }, __jsx("form", {
@@ -9264,7 +9258,7 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 36,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -9272,14 +9266,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 40,
       columnNumber: 21
     }
   }, __jsx("label", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 41,
       columnNumber: 25
     }
   }, "Nombre Usurio"), __jsx("input", {
@@ -9292,14 +9286,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 42,
       columnNumber: 25
     }
   }), errores.nombre && __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 50,
       columnNumber: 44
     }
   }, errores.nombre)), __jsx("div", {
@@ -9307,14 +9301,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 52,
       columnNumber: 21
     }
   }, __jsx("label", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 25
     }
   }, "Email address"), __jsx("input", {
@@ -9327,14 +9321,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 25
     }
   }), errores.email && __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 62,
       columnNumber: 43
     }
   }, errores.email), __jsx("small", {
@@ -9343,7 +9337,7 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 63,
       columnNumber: 25
     }
   }, "We'll never share your email with anyone else.")), __jsx("div", {
@@ -9351,14 +9345,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 68,
       columnNumber: 21
     }
   }, __jsx("label", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 69,
       columnNumber: 25
     }
   }, "Password"), __jsx("input", {
@@ -9371,14 +9365,14 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 70,
       columnNumber: 25
     }
   }), errores.password && __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 78,
       columnNumber: 47
     }
   }, errores.password)), __jsx("button", {
@@ -9388,7 +9382,7 @@ var crearCuenta = function crearCuenta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 81,
       columnNumber: 21
     }
   }, "Crear"))));
@@ -9434,7 +9428,7 @@ function validarCrearCuenta(valores) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcrear-cuenta&absolutePagePath=D%3A%5CGrandi%5Cpages%5Ccrear-cuenta.jsx ***!
   \*********************************************************************************************************************/
@@ -9457,5 +9451,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=crear-cuenta.js.map

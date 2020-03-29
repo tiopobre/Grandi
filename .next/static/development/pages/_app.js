@@ -4042,7 +4042,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var firebase = _interopDefault(__webpack_require__(/*! @firebase/app */ "./node_modules/@firebase/app/dist/index.cjs.js"));
 
 var name = "firebase";
-var version = "7.12.0";
+var version = "7.13.1";
 
 /**
  * @license
