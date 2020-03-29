@@ -27,7 +27,6 @@ const crearCuenta = () => {
             console.error('Hubo un error al crear el usuario', error);
         }
     }
-
     return ( 
         <>
             <Layaout>
