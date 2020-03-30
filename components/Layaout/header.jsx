@@ -3,26 +3,26 @@ import Buscador from '../UI/buscador'
 import Navegacion from './navegacion'
 import Link from 'next/link'
 const Header = () => {
-    return ( 
+    return (
 
-        <header id = "header">
+        <header id="header">
             <div className="d-flex flex-row bd-highlight mb-3">
                 <div>
                     <p>P</p>
-                    <h2>POPOPOPOPOPOPOPOPO</h2>
-                    <Buscador/>
-                   <Navegacion/>
+                    <h2>gonop</h2>
+                    <Buscador />
+                    <Navegacion />
                 </div>
                 <div >
                     <p className="border border-primary">Hola Daniel</p>
-                    <button type = "button">Cerrar Sesion</button>
-                    <Link href = "/"><a>Login</a></Link>
-                    <Link href = "/"><a>Crear Cuenta</a></Link>
+                    <button type="button">Cerrar Sesion</button>
+                    <Link href="/"><a>Login</a></Link>
+                    <Link href="/"><a>Crear Cuenta</a></Link>
                 </div>
             </div>
         </header>
-     );
+    );
 }
- 
+
 export default Header;
 
