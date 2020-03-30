@@ -9,6 +9,7 @@ const Header = () => {
             <div className="d-flex flex-row bd-highlight mb-3">
                 <div>
                     <p>P</p>
+                    <h2>POPOPOPOPOPOPOPOPO</h2>
                     <Buscador/>
                    <Navegacion/>
                 </div>
