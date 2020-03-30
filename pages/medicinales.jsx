@@ -3,10 +3,10 @@ import Layaout from '../components/Layaout/layaout'
 
 const Medicinales = () => {
     return (
-    <Layaout>
-        <div>Welcome to Medicinales.js!</div>
-    </Layaout>
+        <Layaout>
+            <div>MEDICINALES</div>
+        </Layaout>
     )
-  }
-  
-  export default Medicinales
+}
+
+export default Medicinales
