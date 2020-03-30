@@ -1,0 +1,62 @@
+p, h4 {
+	color: #143E03;
+	font-family: 'Bai Jamjuree', sans-serif;
+	}
+	
+	html {
+		
+		scroll-behavior: smooth;
+	}
+	
+	#contenedor {
+		margin-left: auto;
+    	margin-right: auto;
+    	width: 100%;
+    	height: auto;
+		background-color: white;
+		text-align:center;
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	
+	.row{
+		
+		margin-left: auto;
+    	margin-right: auto;
+		width: auto;
+		height: auto;
+		text-align: center;
+	}
+
+	
+	.introduction{
+		width: 90%;
+		padding-bottom: 100px;
+		padding-top: 100px;
+		height: auto;
+		margin-left: auto;
+    	margin-right: auto;
+		text-align:center;
+		background-image: url(../imgs/fondo_perfil.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		
+	}
+	
+	.col-md-12
+	{
+		width: auto;
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-right: 200px;
+		background-image: url(../imgs/lista.png);
+		background-repeat: no-repeat;
+		background-size: 95% 100%;
+		
+	}
+	.separador{
+		height: 100px;
+		padding-bottom: 50px;
+		margin: auto;
+	}

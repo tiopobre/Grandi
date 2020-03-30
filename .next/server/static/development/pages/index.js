@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\components\\Layaout\\header.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\header.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -352,76 +352,7 @@ const Header = () => {
       lineNumber: 40,
       columnNumber: 25
     }
-  }, "Search")))), __jsx("div", {
-    className: "contenido",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "texto",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 17
-    }
-  }, __jsx("h1", {
-    className: "ti",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 21
-    }
-  }, "\"Cultiva tu futuro\""), __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 21
-    }
-  }, "Grandi")), __jsx("div", {
-    className: "iconos",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 17
-    }
-  }, __jsx("input", {
-    type: "image",
-    src: "static/imgs/ico1.png",
-    alt: "icono1",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 21
-    }
-  }), __jsx("input", {
-    type: "image",
-    src: "static/imgs/ico2.png",
-    alt: "icono2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 21
-    }
-  }), __jsx("input", {
-    type: "image",
-    src: "static/imgs/ico3.png",
-    alt: "icono3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 21
-    }
-  }))));
+  }, "Search")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -444,7 +375,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./components/Layaout/header.jsx");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\components\\Layaout\\layaout.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\layaout.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -466,7 +397,7 @@ const layaout = props => {
       lineNumber: 10,
       columnNumber: 17
     }
-  }, "Test Next React Firebase"), __jsx("link", {
+  }, "Grandi"), __jsx("link", {
     href: "/static/css/app.css",
     rel: "stylesheet",
     __self: undefined,
@@ -476,26 +407,35 @@ const layaout = props => {
       columnNumber: 17
     }
   }), __jsx("link", {
+    href: "/static/css/perfil.css",
+    rel: "stylesheet",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  }), __jsx("link", {
     href: "/static/css/bootstrap.min.css",
     rel: "stylesheet",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 14,
       columnNumber: 17
     }
   })), __jsx(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 13
     }
   }), __jsx("main", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 13
     }
   }, props.children), __jsx("script", {
@@ -503,7 +443,7 @@ const layaout = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -513,7 +453,7 @@ const layaout = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -521,7 +461,7 @@ const layaout = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 13
     }
   }));
@@ -544,7 +484,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\components\\Layaout\\navegacion.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\navegacion.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -640,7 +580,7 @@ const Navegacion = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\components\\UI\\buscador.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\UI\\buscador.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2362,7 +2302,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
-var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2382,7 +2322,76 @@ const HomePage = () => {
       lineNumber: 7,
       columnNumber: 9
     }
-  }, "Welcome to Next.js!"));
+  }, "Welcome to Next.js!"), __jsx("div", {
+    className: "contenido",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "texto",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 17
+    }
+  }, __jsx("h1", {
+    className: "ti",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 21
+    }
+  }, "\"Cultiva tu futuro\""), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 21
+    }
+  }, "Grandi")), __jsx("div", {
+    className: "iconos",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 17
+    }
+  }, __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico1.png",
+    alt: "icono1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 21
+    }
+  }), __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico2.png",
+    alt: "icono2",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  }), __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico3.png",
+    alt: "icono3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 21
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (HomePage);
@@ -2396,7 +2405,7 @@ const HomePage = () => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Integracion Multimedia\Grandi\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Usuario\Documents\GitHub\Grandi\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

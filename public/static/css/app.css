@@ -5,7 +5,7 @@ body{
     font-family: 'Bai Jamjuree', sans-serif;
 } 
 
-#header {
+.contenido {
     background: url(../imgs/Fondo.png) no-repeat center;
     background-size: cover;
     min-height: 100vh;

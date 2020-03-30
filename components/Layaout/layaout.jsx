@@ -7,8 +7,9 @@ const layaout = (props) => {
     return (
         <>
             <Head>
-                <title>Test Next React Firebase</title>
+                <title>Grandi</title>
                 <link href="/static/css/app.css" rel="stylesheet" />
+                <link href="/static/css/perfil.css" rel="stylesheet" />
 
                 <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
