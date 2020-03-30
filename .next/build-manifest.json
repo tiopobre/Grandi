@@ -12,6 +12,18 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/Alimentos": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Decorativas": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Medicinales": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/Perfil": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -29,6 +41,10 @@
       "static/runtime/polyfills.js.map"
     ],
     "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

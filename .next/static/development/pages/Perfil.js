@@ -1,5 +1,108 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\Perfil.js"],{
 
+/***/ "./components/Layaout/footer.jsx":
+/*!***************************************!*\
+  !*** ./components/Layaout/footer.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _UI_buscador__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../UI/buscador */ "./components/UI/buscador.jsx");
+/* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\footer.jsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+var Footer = function Footer() {
+  return __jsx("footer", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "footer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  }, "Integraci\xF3n Multimedia"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
+    }
+  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 11
+    }
+  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, "Juan Daniel Casta\xF1eda"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, "Daniel Serrano"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, "Santiago Pe\xF1uela"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 11
+    }
+  }, "\xA9 2020 Copyright")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
 /***/ "./components/Layaout/header.jsx":
 /*!***************************************!*\
   !*** ./components/Layaout/header.jsx ***!
@@ -284,10 +387,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./components/Layaout/header.jsx");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./components/Layaout/footer.jsx");
 var _this = undefined,
     _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\layaout.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -298,14 +403,14 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 13
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 17
     }
   }, "Grandi"), __jsx("link", {
@@ -314,7 +419,7 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 17
     }
   }), __jsx("link", {
@@ -323,7 +428,16 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
+      columnNumber: 17
+    }
+  }), __jsx("link", {
+    href: "/static/css/footer.css",
+    rel: "stylesheet",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
       columnNumber: 17
     }
   }), __jsx("link", {
@@ -332,21 +446,21 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 16,
       columnNumber: 17
     }
   })), __jsx(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 13
     }
   }), __jsx("main", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 26,
       columnNumber: 13
     }
   }, props.children), __jsx("script", {
@@ -354,7 +468,7 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 31,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -364,7 +478,7 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 32,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -372,7 +486,7 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 33,
       columnNumber: 13
     }
   }));
@@ -5286,10 +5400,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
+/* harmony import */ var _components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layaout/footer */ "./components/Layaout/footer.jsx");
 var _this = undefined,
     _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\pages\\Perfil.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -5298,7 +5414,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -5306,7 +5422,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -5314,7 +5430,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -5322,7 +5438,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -5330,7 +5446,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -5338,7 +5454,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 15
     }
   }, "  ", __jsx("img", {
@@ -5347,14 +5463,14 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 40
     }
   })), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 15
     }
   }), __jsx("h4", {
@@ -5362,14 +5478,14 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 14,
       columnNumber: 15
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 14,
       columnNumber: 43
     }
   }, "ALEJANDRA GONZALES")), __jsx("p", {
@@ -5377,7 +5493,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 15
     }
   }, "\xA1Amante de las plantas y entusiasta!")), __jsx("div", {
@@ -5385,28 +5501,28 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 13
     }
   }, __jsx("h4", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 15
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 19
     }
   }, "TUS PLANTAS")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -5415,7 +5531,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -5423,7 +5539,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -5431,7 +5547,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -5439,7 +5555,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -5447,7 +5563,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 23
     }
   }, "  ", __jsx("img", {
@@ -5456,7 +5572,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 48
     }
   }))), __jsx("div", {
@@ -5464,7 +5580,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 21
     }
   }, __jsx("h4", {
@@ -5472,21 +5588,21 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 49
     }
   }, "SAUCO")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 23
     }
   }), __jsx("p", {
@@ -5494,7 +5610,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 23
     }
   }, "El sauco es una plancta medicinal y es considerada como un botiqu\xEDn con el que se preparan diversos remedios naturales.")))), __jsx("div", {
@@ -5502,14 +5618,14 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 17
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 44
     }
   }, ".")), __jsx("div", {
@@ -5517,7 +5633,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -5525,7 +5641,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -5533,7 +5649,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -5541,7 +5657,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 23
     }
   }, "  ", __jsx("img", {
@@ -5550,7 +5666,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 39,
       columnNumber: 48
     }
   }))), __jsx("div", {
@@ -5558,7 +5674,7 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 41,
       columnNumber: 21
     }
   }, __jsx("h4", {
@@ -5566,21 +5682,21 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 42,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 42,
       columnNumber: 49
     }
   }, "ZANAHORIA")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 42,
       columnNumber: 80
     }
   }), __jsx("p", {
@@ -5588,17 +5704,24 @@ var Perfil = function Perfil() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 43,
       columnNumber: 23
     }
-  }, "Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor."))))))))));
+  }, "Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor."))))))))), __jsx(_components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 9
+    }
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Perfil);
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CUsuario%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx ***!
   \************************************************************************************************************************************************/
@@ -5621,5 +5744,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Perfil.js.map

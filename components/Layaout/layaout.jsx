@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Header from './header'
 import Head from 'next/head'
+import Footer from './footer';
 //import { Global, css } from ''
 const layaout = (props) => {
     return (
@@ -10,12 +11,14 @@ const layaout = (props) => {
                 <title>Grandi</title>
                 <link href="/static/css/app.css" rel="stylesheet" />
                 <link href="/static/css/perfil.css" rel="stylesheet" />
-
+                <link href="/static/css/footer.css" rel="stylesheet" />
+                
                 <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
 
 
             <Header />
+            
 
 
 

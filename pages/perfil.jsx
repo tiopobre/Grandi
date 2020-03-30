@@ -1,5 +1,6 @@
 import React from 'react';
 import Layaout from '../components/Layaout/layaout'
+import Footer from '../components/Layaout/footer';
 
 const Perfil = () => {
     return (
@@ -51,7 +52,7 @@ const Perfil = () => {
       </div>
 
 
-
+        <Footer/>
 
         </Layaout>
     )

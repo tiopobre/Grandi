@@ -1,5 +1,6 @@
 import React from 'react';
 import Layaout from '../components/Layaout/layaout'
+import Footer from '../components/Layaout/footer';
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
                     <input type="image" src="static/imgs/ico3.png" alt="icono3" />
                 </div>
             </div>
+            <Footer/>
     </Layaout>
     
     )
