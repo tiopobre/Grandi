@@ -204,14 +204,21 @@ const Header = () => {
       lineNumber: 22,
       columnNumber: 25
     }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "Home.html",
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 44
     }
   }, "INICIO ", __jsx("span", {
     className: "sr-only",
@@ -219,9 +226,9 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 77
+      columnNumber: 76
     }
-  }, "(current)"))), __jsx("li", {
+  }, "(current)")))), __jsx("li", {
     className: "nav-item",
     __self: undefined,
     __source: {
@@ -293,12 +300,36 @@ const Header = () => {
       lineNumber: 32,
       columnNumber: 56
     }
-  }, "DECORATIVAS")))), __jsx("form", {
-    className: "form-inline my-2 my-lg-0",
+  }, "DECORATIVAS"))), __jsx("li", {
+    className: "nav-item",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 25
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Perfil",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
+      columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 51
+    }
+  }, "PERFIL")))), __jsx("form", {
+    className: "form-inline my-2 my-lg-0",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -309,7 +340,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 25
     }
   }), __jsx("button", {
@@ -318,7 +349,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 40,
       columnNumber: 25
     }
   }, "Search")))));

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\Medicinales.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Layaout/header.jsx":
 /*!***************************************!*\
@@ -113,14 +113,21 @@ var Header = function Header() {
       lineNumber: 22,
       columnNumber: 25
     }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "Home.html",
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 44
     }
   }, "INICIO ", __jsx("span", {
     className: "sr-only",
@@ -128,9 +135,9 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 77
+      columnNumber: 76
     }
-  }, "(current)"))), __jsx("li", {
+  }, "(current)")))), __jsx("li", {
     className: "nav-item",
     __self: _this,
     __source: {
@@ -202,12 +209,36 @@ var Header = function Header() {
       lineNumber: 32,
       columnNumber: 56
     }
-  }, "DECORATIVAS")))), __jsx("form", {
-    className: "form-inline my-2 my-lg-0",
+  }, "DECORATIVAS"))), __jsx("li", {
+    className: "nav-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 25
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Perfil",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
+      columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 51
+    }
+  }, "PERFIL")))), __jsx("form", {
+    className: "form-inline my-2 my-lg-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -218,7 +249,7 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 25
     }
   }), __jsx("button", {
@@ -227,7 +258,7 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 40,
       columnNumber: 25
     }
   }, "Search")))));
@@ -1104,21 +1135,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FMedicinales&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5CMedicinales.jsx!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FMedicinales&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5CMedicinales.jsx ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5Cindex.js!./":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5Cindex.js ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/Medicinales", function() {
-      var mod = __webpack_require__(/*! ./pages/Medicinales.jsx */ "./pages/Medicinales.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/Medicinales.jsx */ "./pages/Medicinales.jsx", function() {
-          if(!next.router.components["/Medicinales"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/Medicinales.jsx */ "./pages/Medicinales.jsx")
-          next.router.update("/Medicinales", updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -5234,10 +5265,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/Medicinales.jsx":
-/*!*******************************!*\
-  !*** ./pages/Medicinales.jsx ***!
-  \*******************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5247,42 +5278,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
 var _this = undefined,
-    _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\pages\\Medicinales.jsx";
+    _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Medicinales = function Medicinales() {
+var HomePage = function HomePage() {
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 9
+      columnNumber: 5
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 13
+      columnNumber: 9
     }
-  }, "MEDICINALES"));
+  }, "Welcome to Next.js!"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Medicinales);
+/* harmony default export */ __webpack_exports__["default"] = (HomePage);
 
 /***/ }),
 
-/***/ 3:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FMedicinales&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5CMedicinales.jsx ***!
-  \**********************************************************************************************************************************************/
+/***/ 2:
+/*!****************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FMedicinales&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5CMedicinales.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FMedicinales&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5CMedicinales.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -5298,5 +5329,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=Medicinales.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=index.js.map

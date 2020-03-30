@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -204,14 +204,21 @@ const Header = () => {
       lineNumber: 22,
       columnNumber: 25
     }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "Home.html",
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 44
     }
   }, "INICIO ", __jsx("span", {
     className: "sr-only",
@@ -219,9 +226,9 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 77
+      columnNumber: 76
     }
-  }, "(current)"))), __jsx("li", {
+  }, "(current)")))), __jsx("li", {
     className: "nav-item",
     __self: undefined,
     __source: {
@@ -293,12 +300,36 @@ const Header = () => {
       lineNumber: 32,
       columnNumber: 56
     }
-  }, "DECORATIVAS")))), __jsx("form", {
-    className: "form-inline my-2 my-lg-0",
+  }, "DECORATIVAS"))), __jsx("li", {
+    className: "nav-item",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 25
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Perfil",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
+      columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 51
+    }
+  }, "PERFIL")))), __jsx("form", {
+    className: "form-inline my-2 my-lg-0",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -309,7 +340,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 25
     }
   }), __jsx("button", {
@@ -318,7 +349,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 40,
       columnNumber: 25
     }
   }, "Search")))));
@@ -2250,10 +2281,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/Medicinales.jsx":
-/*!*******************************!*\
-  !*** ./pages/Medicinales.jsx ***!
-  \*******************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2262,41 +2293,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
-var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\pages\\Medicinales.jsx";
+var _jsxFileName = "E:\\Integracion Multimedia\\Grandi\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Medicinales = () => {
+const HomePage = () => {
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
-      columnNumber: 9
+      columnNumber: 5
     }
   }, __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
-      columnNumber: 13
+      columnNumber: 9
     }
-  }, "MEDICINALES"));
+  }, "Welcome to Next.js!"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Medicinales);
+/* harmony default export */ __webpack_exports__["default"] = (HomePage);
 
 /***/ }),
 
-/***/ 5:
-/*!*************************************!*\
-  !*** multi ./pages/Medicinales.jsx ***!
-  \*************************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Integracion Multimedia\Grandi\pages\Medicinales.jsx */"./pages/Medicinales.jsx");
+module.exports = __webpack_require__(/*! E:\Integracion Multimedia\Grandi\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -2368,4 +2399,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=Medicinales.js.map
+//# sourceMappingURL=index.js.map
