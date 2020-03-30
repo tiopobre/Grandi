@@ -1,12 +1,12 @@
 import React from 'react';
 import Layaout from '../components/Layaout/layaout'
 
-const Medicinales = () => {
+const Decorativas = () => {
     return (
         <Layaout>
-            <div>MEDICINALES</div>
+            <div>DECORATIVAS</div>
         </Layaout>
     )
 }
 
-export default Medicinales
+export default Decorativas
