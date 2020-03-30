@@ -129,13 +129,13 @@ var Header = function Header() {
       lineNumber: 23,
       columnNumber: 44
     }
-  }, "INICIO ", __jsx("span", {
+  }, "INICIO. ", __jsx("span", {
     className: "sr-only",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 76
+      columnNumber: 77
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
@@ -261,7 +261,76 @@ var Header = function Header() {
       lineNumber: 40,
       columnNumber: 25
     }
-  }, "Search")))));
+  }, "Search")))), __jsx("div", {
+    className: "contenido",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "texto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 17
+    }
+  }, __jsx("h1", {
+    className: "ti",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 21
+    }
+  }, "\"Cultiva tu futuro\""), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 21
+    }
+  }, "Grandi")), __jsx("div", {
+    className: "iconos",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 17
+    }
+  }, __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico1.png",
+    alt: "icono1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 21
+    }
+  }), __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico2.png",
+    alt: "icono2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 21
+    }
+  }), __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico3.png",
+    alt: "icono3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 21
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -5306,7 +5375,7 @@ var HomePage = function HomePage() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5CIntegracion%20Multimedia%5CGrandi%5Cpages%5Cindex.js ***!
   \****************************************************************************************************************************/
@@ -5329,5 +5398,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

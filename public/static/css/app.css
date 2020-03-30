@@ -1,6 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+} 
 
 #header {
     background: url(../imgs/Fondo.png) no-repeat center;
     background-size: cover;
     min-height: 100vh;
   }
+
+  
+.header .navbar {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  
+  
+  /*700px o menos*/
+  @media only screen and (max-width: 700px) 
+  {
+      
+      
+      .contenido{
+          font-family: 'Bai Jamjuree', sans-serif;
+          width: 100%;
+          height: 10%;
+          
+      }
+  
+      .ti{
+          font-size: 1.5rem;
+          text-align: center;
+          padding-top:1.3rem; 
+          color:#3f554d;
+      }
+  
+      .texto{
+          font-size: 1rem;
+          text-align: center;
+          padding-top:2.4rem; 
+          color:#3f554d;
+      }
+      input[type="image"] {
+          padding-left: 0.2rem;
+          padding-right: 0.2rem;
+         
+      }
+  
+      .iconos{
+          text-align: center;
+          margin-top: 0.6rem;
+      }
+  
+  
+  }
+  /*700px o mas*/
+  @media only screen and (min-width: 700px) {
+  
+          
+      .contenido{
+          font-family: 'Bai Jamjuree', sans-serif;
+          width: 100%;
+          height: 56rem;
+        
+      }
+  
+      .ti{
+          font-size: 7rem;
+          text-align: center;
+          padding-top:6rem; 
+          color:#3f554d;
+      }
+  
+      .texto{
+          font-size: 4rem;
+          text-align: center;
+          padding-top:6rem; 
+          color:#3f554d;
+      }
+      input[type="image"] {
+          padding-left: 1rem;
+          padding-right: 1rem;
+      }
+  
+      .iconos{
+          text-align: center;
+          margin-top: 8rem;
+      }
+  
+  }
+  

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -220,13 +220,13 @@ const Header = () => {
       lineNumber: 23,
       columnNumber: 44
     }
-  }, "INICIO ", __jsx("span", {
+  }, "INICIO. ", __jsx("span", {
     className: "sr-only",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 76
+      columnNumber: 77
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
@@ -352,7 +352,76 @@ const Header = () => {
       lineNumber: 40,
       columnNumber: 25
     }
-  }, "Search")))));
+  }, "Search")))), __jsx("div", {
+    className: "contenido",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "texto",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 17
+    }
+  }, __jsx("h1", {
+    className: "ti",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 21
+    }
+  }, "\"Cultiva tu futuro\""), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 21
+    }
+  }, "Grandi")), __jsx("div", {
+    className: "iconos",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 17
+    }
+  }, __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico1.png",
+    alt: "icono1",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 21
+    }
+  }), __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico2.png",
+    alt: "icono2",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 21
+    }
+  }), __jsx("input", {
+    type: "image",
+    src: "static/imgs/ico3.png",
+    alt: "icono3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 21
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -2320,7 +2389,7 @@ const HomePage = () => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

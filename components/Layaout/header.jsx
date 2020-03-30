@@ -44,6 +44,19 @@ const Header = () => {
                 </div>
             </nav>
 
+            <div className="contenido">
+                <div className="texto">
+                    <h1 className="ti">"Cultiva tu futuro"</h1>
+                    <p>Grandi</p>
+                </div>
+                <div className="iconos">
+                    <input type="image" src="static/imgs/ico1.png" alt="icono1" />
+                    <input type="image" src="static/imgs/ico2.png" alt="icono2" />
+                    <input type="image" src="static/imgs/ico3.png" alt="icono3" />
+                </div>
+            </div>
+
+
 
         </header>
 
