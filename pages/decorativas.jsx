@@ -22,7 +22,7 @@ const Decorativas = () => {
                   <img className="plant_img" src="static/imgs/Plantas/perenne.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Perenne Chino</h3>
                   </div>
                 </div>
@@ -33,7 +33,7 @@ const Decorativas = () => {
                   <img className="plant_img" src="static/imgs/Plantas/cactus.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Cactus Blanco</h3>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const Decorativas = () => {
                   <img className="plant_img" src="static/imgs/Plantas/cinta.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Planta Cinta</h3>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const Decorativas = () => {
                   <img className="plant_img" src="static/imgs/Plantas/bambu.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Bambú</h3>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const Decorativas = () => {
                   <img className="plant_img" src="static/imgs/Plantas/peperomia.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Peperomia Watermelon</h3>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Decorativas = () => {
                   <img className="plant_img" src="static/imgs/Plantas/hoja_rota.jpeg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Hoja Rota</h3>
                   </div>
                 </div>

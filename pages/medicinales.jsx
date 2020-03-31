@@ -22,7 +22,7 @@ const Medicinales = () => {
                   <img className="plant_img" src="static/imgs/Plantas/aloe.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Aloe Vera</h3>
                   </div>
                 </div>
@@ -33,7 +33,7 @@ const Medicinales = () => {
                   <img className="plant_img" src="static/imgs/Plantas/manzanilla.png" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Manzanilla</h3>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const Medicinales = () => {
                   <img className="plant_img" src="static/imgs/Plantas/caballo.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Cola de Caballo</h3>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const Medicinales = () => {
                   <img className="plant_img" src="static/imgs/Plantas/tomillo.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Tomillo</h3>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const Medicinales = () => {
                   <img className="plant_img" src="static/imgs/Plantas/oregano.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Orégano</h3>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Medicinales = () => {
                   <img className="plant_img" src="static/imgs/Plantas/ajenjo.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Ajenjo</h3>
                   </div>
                 </div>

@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\footer.jsx";
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\footer.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -40,63 +40,103 @@ var Footer = function Footer() {
       lineNumber: 9,
       columnNumber: 9
     }
-  }, __jsx("p", {
+  }, __jsx("div", {
+    className: "row",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "col-md-3 footersito",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
       columnNumber: 11
     }
-  }, "Integraci\xF3n Multimedia"), __jsx("p", {
+  }), __jsx("div", {
+    className: "col-md-3 footersito",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 11
+      columnNumber: 10
     }
-  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
+  }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 11
     }
-  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
+  }, "Integraci\xF3n Multimedia"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 11
     }
-  }, "Juan Daniel Casta\xF1eda"), __jsx("p", {
+  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 11
     }
-  }, "Daniel Serrano"), __jsx("p", {
+  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 11
     }
-  }, "Santiago Pe\xF1uela"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 11
-    }
-  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+  }, "Juan Daniel Casta\xF1eda")), __jsx("div", {
+    className: "col-md-3 footersito",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 11
     }
-  }, "\xA9 2020 Copyright")));
+  }, __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }, "Daniel Serrano"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "Santiago Pe\xF1uela"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 11
+    }
+  }, "\xA9 2020 Copyright")), __jsx("div", {
+    className: "col-md-3 footersito",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -119,7 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\header.jsx";
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\header.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -232,13 +272,13 @@ var Header = function Header() {
       lineNumber: 23,
       columnNumber: 44
     }
-  }, "INICIO. ", __jsx("span", {
+  }, "INICIO ", __jsx("span", {
     className: "sr-only",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 77
+      columnNumber: 76
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
@@ -389,7 +429,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./components/Layaout/footer.jsx");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\layaout.jsx";
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\layaout.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -519,7 +559,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\navegacion.jsx";
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\navegacion.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -617,7 +657,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\UI\\buscador.jsx";
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\UI\\buscador.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1267,10 +1307,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CJuan%5CDocuments%5CPresentaciones%20y%20trabajos%5CIntegracion%5CGrandi%5CGrandi%5Cpages%5Cindex.js!./":
-/*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CJuan%5CDocuments%5CPresentaciones%20y%20trabajos%5CIntegracion%5CGrandi%5CGrandi%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CUsuario%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Cindex.js!./":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CUsuario%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Cindex.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5411,7 +5451,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
 /* harmony import */ var _components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layaout/footer */ "./components/Layaout/footer.jsx");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\pages\\index.js";
+    _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5427,18 +5467,11 @@ var HomePage = function HomePage() {
       columnNumber: 5
     }
   }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }, "Welcome to Next.js!"), __jsx("div", {
     className: "contenido",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -5446,7 +5479,7 @@ var HomePage = function HomePage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 17
     }
   }, __jsx("h1", {
@@ -5454,22 +5487,29 @@ var HomePage = function HomePage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 10,
       columnNumber: 21
     }
-  }, "\"Cultiva tu futuro\""), __jsx("p", {
+  }, "CULTIVA TU FUTURO"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 11,
       columnNumber: 21
     }
-  }, "Grandi")), __jsx("div", {
+  }, __jsx("strong", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 24
+    }
+  }, "Grandi"))), __jsx("div", {
     className: "iconos",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 17
     }
   }, __jsx("input", {
@@ -5479,7 +5519,7 @@ var HomePage = function HomePage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 21
     }
   }), __jsx("input", {
@@ -5489,7 +5529,7 @@ var HomePage = function HomePage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 21
     }
   }), __jsx("input", {
@@ -5499,14 +5539,14 @@ var HomePage = function HomePage() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 21
     }
   }))), __jsx(_components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 13
     }
   }));
@@ -5516,14 +5556,14 @@ var HomePage = function HomePage() {
 
 /***/ }),
 
-/***/ 2:
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CJuan%5CDocuments%5CPresentaciones%20y%20trabajos%5CIntegracion%5CGrandi%5CGrandi%5Cpages%5Cindex.js ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ 1:
+/*!****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CUsuario%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CJuan%5CDocuments%5CPresentaciones%20y%20trabajos%5CIntegracion%5CGrandi%5CGrandi%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CJuan%5CDocuments%5CPresentaciones%20y%20trabajos%5CIntegracion%5CGrandi%5CGrandi%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CUsuario%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CUsuario%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -5539,5 +5579,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

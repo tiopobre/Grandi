@@ -12,11 +12,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/Alimentos": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Perfil": [
+    "/Medicinales": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

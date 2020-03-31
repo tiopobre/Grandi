@@ -22,7 +22,7 @@ const Alimentos = () => {
                   <img className="plant_img" src="static/imgs/Plantas/fresa.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Fresa</h3>
                   </div>
                 </div>
@@ -33,7 +33,7 @@ const Alimentos = () => {
                   <img className="plant_img" src="static/imgs/Plantas/cebolla.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Cebolla</h3>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const Alimentos = () => {
                   <img className="plant_img" src="static/imgs/Plantas/ajo.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Ajo</h3>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ const Alimentos = () => {
                   <img className="plant_img" src="static/imgs/Plantas/lechuga.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Lechuga</h3>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const Alimentos = () => {
                   <img className="plant_img" src="static/imgs/Plantas/tomate_cherry.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Tomate Cherry</h3>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ const Alimentos = () => {
                   <img className="plant_img" src="static/imgs/Plantas/zanahoria.jpg" alt="" />
                   <div className="feature-copy">
                     <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-                    <p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p>
+                    <Link href="/Desc_Planta"><p><a href="#">Learn More <i className="icon-arrow-right22" /></a></p></Link>
                     <h3>Zanahoria</h3>
                   </div>
                 </div>

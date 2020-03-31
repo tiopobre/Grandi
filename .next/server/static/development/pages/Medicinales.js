@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\footer.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\footer.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -131,63 +131,103 @@ const Footer = () => {
       lineNumber: 9,
       columnNumber: 9
     }
-  }, __jsx("p", {
+  }, __jsx("div", {
+    className: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "col-md-3 footersito",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
       columnNumber: 11
     }
-  }, "Integraci\xF3n Multimedia"), __jsx("p", {
+  }), __jsx("div", {
+    className: "col-md-3 footersito",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 11
+      columnNumber: 10
     }
-  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
+  }, __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 11
     }
-  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
+  }, "Integraci\xF3n Multimedia"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 11
     }
-  }, "Juan Daniel Casta\xF1eda"), __jsx("p", {
+  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 11
     }
-  }, "Daniel Serrano"), __jsx("p", {
+  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 11
     }
-  }, "Santiago Pe\xF1uela"), __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 11
-    }
-  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+  }, "Juan Daniel Casta\xF1eda")), __jsx("div", {
+    className: "col-md-3 footersito",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 11
     }
-  }, "\xA9 2020 Copyright")));
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }, "Daniel Serrano"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "Santiago Pe\xF1uela"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 11
+    }
+  }, "\xA9 2020 Copyright")), __jsx("div", {
+    className: "col-md-3 footersito",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -209,7 +249,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\header.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\header.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -321,13 +361,13 @@ const Header = () => {
       lineNumber: 23,
       columnNumber: 44
     }
-  }, "INICIO. ", __jsx("span", {
+  }, "INICIO ", __jsx("span", {
     className: "sr-only",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 77
+      columnNumber: 76
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
@@ -477,7 +517,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./components/Layaout/footer.jsx");
-var _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\layaout.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\layaout.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -605,7 +645,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\Layaout\\navegacion.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\Layaout\\navegacion.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -701,7 +741,7 @@ const Navegacion = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\components\\UI\\buscador.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\components\\UI\\buscador.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2426,7 +2466,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layaout/footer */ "./components/Layaout/footer.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Juan\\Documents\\Presentaciones y trabajos\\Integracion\\Grandi\\Grandi\\pages\\Medicinales.jsx";
+var _jsxFileName = "C:\\Users\\Usuario\\Documents\\GitHub\\Grandi\\pages\\Medicinales.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2556,12 +2596,20 @@ const Medicinales = () => {
       lineNumber: 24,
       columnNumber: 21
     }
-  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx("p", {
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Desc_Planta",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 21
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 47
     }
   }, __jsx("a", {
     href: "#",
@@ -2569,7 +2617,7 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 24
+      columnNumber: 50
     }
   }, "Learn More ", __jsx("i", {
     className: "icon-arrow-right22",
@@ -2577,9 +2625,9 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 47
+      columnNumber: 73
     }
-  }))), __jsx("h3", {
+  })))), __jsx("h3", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2627,12 +2675,20 @@ const Medicinales = () => {
       lineNumber: 35,
       columnNumber: 21
     }
-  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx("p", {
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Desc_Planta",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 21
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 47
     }
   }, __jsx("a", {
     href: "#",
@@ -2640,7 +2696,7 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
-      columnNumber: 24
+      columnNumber: 50
     }
   }, "Learn More ", __jsx("i", {
     className: "icon-arrow-right22",
@@ -2648,9 +2704,9 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
-      columnNumber: 47
+      columnNumber: 73
     }
-  }))), __jsx("h3", {
+  })))), __jsx("h3", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2698,12 +2754,20 @@ const Medicinales = () => {
       lineNumber: 45,
       columnNumber: 21
     }
-  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx("p", {
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Desc_Planta",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
       columnNumber: 21
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 47
     }
   }, __jsx("a", {
     href: "#",
@@ -2711,7 +2775,7 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
-      columnNumber: 24
+      columnNumber: 50
     }
   }, "Learn More ", __jsx("i", {
     className: "icon-arrow-right22",
@@ -2719,9 +2783,9 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
-      columnNumber: 47
+      columnNumber: 73
     }
-  }))), __jsx("h3", {
+  })))), __jsx("h3", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2777,12 +2841,20 @@ const Medicinales = () => {
       lineNumber: 57,
       columnNumber: 21
     }
-  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx("p", {
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Desc_Planta",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58,
       columnNumber: 21
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 47
     }
   }, __jsx("a", {
     href: "#",
@@ -2790,7 +2862,7 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58,
-      columnNumber: 24
+      columnNumber: 50
     }
   }, "Learn More ", __jsx("i", {
     className: "icon-arrow-right22",
@@ -2798,9 +2870,9 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58,
-      columnNumber: 47
+      columnNumber: 73
     }
-  }))), __jsx("h3", {
+  })))), __jsx("h3", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2848,12 +2920,20 @@ const Medicinales = () => {
       lineNumber: 67,
       columnNumber: 21
     }
-  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx("p", {
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Desc_Planta",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
       columnNumber: 21
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 47
     }
   }, __jsx("a", {
     href: "#",
@@ -2861,7 +2941,7 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
-      columnNumber: 24
+      columnNumber: 50
     }
   }, "Learn More ", __jsx("i", {
     className: "icon-arrow-right22",
@@ -2869,9 +2949,9 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
-      columnNumber: 47
+      columnNumber: 73
     }
-  }))), __jsx("h3", {
+  })))), __jsx("h3", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2919,12 +2999,20 @@ const Medicinales = () => {
       lineNumber: 77,
       columnNumber: 21
     }
-  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx("p", {
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/Desc_Planta",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78,
       columnNumber: 21
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 47
     }
   }, __jsx("a", {
     href: "#",
@@ -2932,7 +3020,7 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78,
-      columnNumber: 24
+      columnNumber: 50
     }
   }, "Learn More ", __jsx("i", {
     className: "icon-arrow-right22",
@@ -2940,9 +3028,9 @@ const Medicinales = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78,
-      columnNumber: 47
+      columnNumber: 73
     }
-  }))), __jsx("h3", {
+  })))), __jsx("h3", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2963,14 +3051,14 @@ const Medicinales = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!*************************************!*\
   !*** multi ./pages/Medicinales.jsx ***!
   \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Juan\Documents\Presentaciones y trabajos\Integracion\Grandi\Grandi\pages\Medicinales.jsx */"./pages/Medicinales.jsx");
+module.exports = __webpack_require__(/*! C:\Users\Usuario\Documents\GitHub\Grandi\pages\Medicinales.jsx */"./pages/Medicinales.jsx");
 
 
 /***/ }),
