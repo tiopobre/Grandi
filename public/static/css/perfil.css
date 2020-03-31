@@ -7,6 +7,46 @@ p, h4 {
 		
 		scroll-behavior: smooth;
 	}
+
+	
+
+	.social-iconos li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+	}
+	
+	.regadera img{
+		width: 80px;
+		height: 101px;
+		left: 598px;
+		top: 220px;
+	}
+	
+	.sol img{
+		width: 80px;
+		height: 101px;
+		left: 598px;
+		top: 220px;
+	}
+	
+	.tiempo img{
+		width: 80px;
+		height: 101px;
+		left: 598px;
+		top: 220px;
+	}
+	
+	.corazon {
+		width: 80px;
+		height: 101px;
+		left: 598px;
+		top: 220px;
+	}
 	
 	#contenedor {
 		margin-left: auto;
@@ -43,6 +83,14 @@ p, h4 {
 		
 	}
 	
+	.col-md-11 h4{
+		font-size: 35px;
+	}
+	
+	.info p{
+		text-align: justify;
+	}
+
 	.col-md-12
 	{
 		width: auto;
@@ -55,8 +103,35 @@ p, h4 {
 		background-size: 95% 100%;
 		
 	}
+
+	.col-2 img{
+		width: 80px;
+		height: 101px;
+		left: 598px;
+		top: 220px;
+	}
+	
+	.col-6 img{
+		width: 80px;
+		height: 101px;
+		left: 598px;
+		top: 220px;
+	}
+
+	.eucalipto img{
+		width: 300px;
+		height: 301px;
+		left: 598px;
+		top: 220px;
+		border-radius: 200px;
+	}
+
 	.separador{
 		height: 100px;
 		padding-bottom: 50px;
 		margin: auto;
+	}
+
+	.linea-separa{
+		border: 1px solid rgba(96, 158, 59, 0.53);
 	}
