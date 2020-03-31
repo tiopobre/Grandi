@@ -40,63 +40,103 @@ var Footer = function Footer() {
       lineNumber: 9,
       columnNumber: 9
     }
-  }, __jsx("p", {
+  }, __jsx("div", {
+    className: "row",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "col-md-3 footersito",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
       columnNumber: 11
     }
-  }, "Integraci\xF3n Multimedia"), __jsx("p", {
+  }), __jsx("div", {
+    className: "col-md-3 footersito",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 11
+      columnNumber: 10
     }
-  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
+  }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 11
     }
-  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
+  }, "Integraci\xF3n Multimedia"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 11
     }
-  }, "Juan Daniel Casta\xF1eda"), __jsx("p", {
+  }, "David Santiago Rodr\xEDguez"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 11
     }
-  }, "Daniel Serrano"), __jsx("p", {
+  }, "Germ\xE1n Rodr\xEDguez Gutierrez"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 11
     }
-  }, "Santiago Pe\xF1uela"), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 11
-    }
-  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+  }, "Juan Daniel Casta\xF1eda")), __jsx("div", {
+    className: "col-md-3 footersito",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 11
     }
-  }, "\xA9 2020 Copyright")));
+  }, __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 11
+    }
+  }, "Daniel Serrano"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "Santiago Pe\xF1uela"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 11
+    }
+  }, "Universidad Militar Nueva Granada"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 11
+    }
+  }, "\xA9 2020 Copyright")), __jsx("div", {
+    className: "col-md-3 footersito",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -232,13 +272,13 @@ var Header = function Header() {
       lineNumber: 23,
       columnNumber: 44
     }
-  }, "INICIO. ", __jsx("span", {
+  }, "INICIO ", __jsx("span", {
     className: "sr-only",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 77
+      columnNumber: 76
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
@@ -450,34 +490,50 @@ var layaout = function layaout(props) {
       columnNumber: 17
     }
   }), __jsx("link", {
+    href: "/static/css/seccion.css",
+    rel: "stylesheet",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 17
+    }
+  }), __jsx("link", {
     href: "/static/css/bootstrap.min.css",
     rel: "stylesheet",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 17
     }
   })), __jsx(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 13
     }
   }), __jsx("main", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 24,
       columnNumber: 13
     }
-  }, props.children), __jsx("script", {
+  }, props.children), __jsx(_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 13
+    }
+  }), __jsx("script", {
     src: "/static/js/jquery-3.4.1.min.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 29,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -487,7 +543,7 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 30,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -495,7 +551,7 @@ var layaout = function layaout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 31,
       columnNumber: 13
     }
   }));
@@ -5732,7 +5788,7 @@ var Desc_Planta = function Desc_Planta() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 4:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FDesc_Planta&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CDesc_Planta.jsx ***!
   \*******************************************************************************************************************************************************************/
@@ -5755,5 +5811,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Desc_Planta.js.map

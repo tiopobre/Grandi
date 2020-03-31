@@ -13,22 +13,19 @@ const layaout = (props) => {
                 <link href="/static/css/perfil.css" rel="stylesheet" />
                 <link href="/static/css/desc_planta.css" rel="stylesheet" />
                 <link href="/static/css/footer.css" rel="stylesheet" />
+                <link href="/static/css/seccion.css" rel="stylesheet" />
                 
                 <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
 
 
-            <Header />
+            <Header/>
             
-
-
-
-
             <main>
                 {props.children}
             </main>
 
-
+            <Footer/>
             <script src="/static/js/jquery-3.4.1.min.js" />
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossOrigin="anonymous" />
             <script src="/static/js/bootstrap.min.js" />

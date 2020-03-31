@@ -54,9 +54,6 @@ const Perfil = () => {
         </div>
       </div>
 
-
-        <Footer/>
-
         </Layaout>
     )
 }
