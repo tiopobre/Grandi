@@ -85,7 +85,6 @@ const Medicinales = () => {
         </div>
       </div>
 
-            <Footer/>
         </Layaout>
     )
 }

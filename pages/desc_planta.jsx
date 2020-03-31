@@ -42,7 +42,6 @@ const Desc_Planta = () => {
         </div>
       </div>
       
-      <Footer/>
         </Layaout>
 
     )

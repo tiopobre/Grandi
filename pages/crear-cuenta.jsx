@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Layaout from '../components/Layaout/layaout'
+import Footer from '../components/Layaout/footer';
 
 import firebase from '../firebase';
 //validaciones
@@ -31,8 +32,7 @@ const crearCuenta = () => {
         <>
             <Layaout>
                 <h2>Crear Cuenta</h2>
-            </Layaout>
-            <div className="d-flex flex-row bd-highligh justify-content-center">
+                <div className="d-flex flex-row bd-highligh justify-content-center">
                 <form 
                     onSubmit = {handleSubmit}
                     
@@ -85,6 +85,8 @@ const crearCuenta = () => {
                         >Crear</button>
                 </form>
             </div>
+           
+            </Layaout>
             
         </>
      );

@@ -84,8 +84,6 @@ const Alimentos = () => {
           </div>
         </div>
       </div>
-
-            <Footer/>
         </Layaout>
     )
 }

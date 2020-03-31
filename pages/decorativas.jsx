@@ -85,7 +85,6 @@ const Decorativas = () => {
         </div>
       </div>
 
-            <Footer/>
         </Layaout>
     )
 }
