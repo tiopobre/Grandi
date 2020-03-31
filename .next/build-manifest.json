@@ -8,11 +8,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Alimentos": [
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/Desc_Planta": [
+    "/Medicinales": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Perfil": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -27,6 +31,10 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
