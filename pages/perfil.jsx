@@ -1,6 +1,7 @@
 import React from 'react';
 import Layaout from '../components/Layaout/layaout'
 import Footer from '../components/Layaout/footer';
+import Link from 'next/link'
 
 const Perfil = () => {
     return (
@@ -22,11 +23,13 @@ const Perfil = () => {
                   {/* Interior lista */} 
                   <div className="row">
                     <div className="col-md-4">
-                      <div className="icono">  <img src="static/imgs/sauco.png" alt="" /></div>
+                    
+                     <div className="icono">  <Link href="/Desc_Planta"><img src="static/imgs/sauco.png" alt=""/></Link></div>
                     </div>
                     <div className="col-md-8">
                       <h4 className="text-left"><strong>SAUCO</strong></h4>
                       <br />
+                      
                       <p className="text-left">El sauco es una plancta medicinal y es considerada como un botiquín con el que se preparan diversos remedios naturales.</p>
                     </div>
                   </div>
