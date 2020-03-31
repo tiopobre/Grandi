@@ -5628,7 +5628,7 @@ var Desc_Planta = function Desc_Planta() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    "class": "col-sm-8",
+    className: "col-sm-8",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5692,7 +5692,7 @@ var Desc_Planta = function Desc_Planta() {
       columnNumber: 52
     }
   })))), __jsx("div", {
-    "class": "col-sm-4",
+    className: "col-sm-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5774,21 +5774,14 @@ var Desc_Planta = function Desc_Planta() {
       lineNumber: 46,
       columnNumber: 17
     }
-  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor.")))), __jsx(_components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 5
-    }
-  }));
+  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Desc_Planta);
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FDesc_Planta&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CDesc_Planta.jsx ***!
   \*******************************************************************************************************************************************************************/
@@ -5811,5 +5804,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Desc_Planta.js.map

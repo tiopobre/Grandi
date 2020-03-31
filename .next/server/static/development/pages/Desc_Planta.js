@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2640,7 +2640,7 @@ const Desc_Planta = () => {
       columnNumber: 9
     }
   }, __jsx("div", {
-    class: "col-sm-8",
+    className: "col-sm-8",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2704,7 +2704,7 @@ const Desc_Planta = () => {
       columnNumber: 52
     }
   })))), __jsx("div", {
-    class: "col-sm-4",
+    className: "col-sm-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2786,21 +2786,14 @@ const Desc_Planta = () => {
       lineNumber: 46,
       columnNumber: 17
     }
-  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor.")))), __jsx(_components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 5
-    }
-  }));
+  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Desc_Planta);
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!*************************************!*\
   !*** multi ./pages/Desc_Planta.jsx ***!
   \*************************************/

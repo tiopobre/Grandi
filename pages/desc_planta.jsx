@@ -27,14 +27,14 @@ const Desc_Planta = () => {
      </div>
      <div className="containerr">
         <div className="row">
-            <div class="col-sm-8">
+            <div className="col-sm-8">
                     <div className="row contenido-tercero">
                             <h4 className="col-sm"><img src="static/imgs/agua.svg" /></h4>
                             <h4 className="col-sm"><img src="static/imgs/sun.svg" /></h4>
                             <h4 className="col-sm"><img src="static/imgs/crecimiento (1).svg" /></h4>
                     </div>
             </div>
-            <div class="col-sm-4">
+            <div className="col-sm-4">
                 <h4></h4>
             </div>
          </div>
@@ -48,8 +48,6 @@ const Desc_Planta = () => {
             </div>
      </div>
   </div>
-      
-    <Footer/>
       </Layaout>
 
     )
