@@ -432,6 +432,15 @@ var layaout = function layaout(props) {
       columnNumber: 17
     }
   }), __jsx("link", {
+    href: "/static/css/desc_planta.css",
+    rel: "stylesheet",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 17
+    }
+  }), __jsx("link", {
     href: "/static/css/footer.css",
     rel: "stylesheet",
     __self: _this,
@@ -5732,7 +5741,7 @@ var Perfil = function Perfil() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx ***!
   \*********************************************************************************************************************************************************/
@@ -5755,5 +5764,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Perfil.js.map

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -516,6 +516,15 @@ const layaout = props => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
+      columnNumber: 17
+    }
+  }), __jsx("link", {
+    href: "/static/css/desc_planta.css",
+    rel: "stylesheet",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
       columnNumber: 17
     }
   }), __jsx("link", {
@@ -2744,7 +2753,7 @@ const Perfil = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/Perfil.jsx ***!
   \********************************/

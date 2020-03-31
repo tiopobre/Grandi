@@ -432,6 +432,15 @@ var layaout = function layaout(props) {
       columnNumber: 17
     }
   }), __jsx("link", {
+    href: "/static/css/desc_planta.css",
+    rel: "stylesheet",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 17
+    }
+  }), __jsx("link", {
     href: "/static/css/footer.css",
     rel: "stylesheet",
     __self: _this,
@@ -5418,246 +5427,234 @@ var Desc_Planta = function Desc_Planta() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 9
+      columnNumber: 6
     }
   }, __jsx("div", {
-    id: "contenedor",
+    className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 13
+      columnNumber: 3
     }
   }, __jsx("div", {
-    className: "introduction",
+    className: "row align-items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 9
+      columnNumber: 6
     }
   }, __jsx("div", {
-    className: "row col-md-11",
+    className: "col",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 11
+      columnNumber: 13
     }
   }, __jsx("div", {
-    className: "col-md-6",
+    className: "row align-items-center contenido-primero",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, __jsx("div", {
-    className: "row contenidoo",
+  }, __jsx("h1", {
+    className: "col",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
-      columnNumber: 15
+      columnNumber: 21
     }
-  }, __jsx("h4", {
-    className: "col-2",
+  }, __jsx("b", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 41
+    }
+  }, "Eucalipto")), __jsx("h4", {
+    className: "col-md-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 17
-    }
-  }, __jsx("strong", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 39
-    }
-  }, "Eucalipto")), __jsx("br", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 70
-    }
-  }), __jsx("h4", {
-    className: "col-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  }, __jsx("strong", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 39
-    }
-  })), __jsx("h4", {
-    className: "col-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("img", {
     src: "static/imgs/passion.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 39
+      lineNumber: 14,
+      columnNumber: 49
     }
   })), __jsx("h4", {
-    className: "col-6",
+    className: "col col-lg-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 17
+      lineNumber: 15,
+      columnNumber: 21
     }
   }, __jsx("img", {
     src: "static/imgs/planta.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 39
+      lineNumber: 15,
+      columnNumber: 50
     }
   }))), __jsx("p", {
     className: "text-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 15
+      lineNumber: 17,
+      columnNumber: 17
     }
   }, "Originario de Australia, este \xE1rbol de grandes dimensiones, crece r\xE1pidamente en todas las regiones templadas del planeta. Adem\xE1s, sus ra\xEDces absorben mucha agua del terreno."), __jsx("p", {
     className: "text-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 15
+      lineNumber: 18,
+      columnNumber: 11
     }
   }, "Para usos medicinales se utilizan las hojas frescas para hacer aceite esencial de eucalipto y para inhalaciones, y las secas para infusiones.")), __jsx("div", {
-    className: "col-md-6 eucalipto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 20,
       columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "col contenido-segundo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "icono",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
+      lineNumber: 22,
+      columnNumber: 21
     }
-  }, " ", __jsx("img", {
+  }, __jsx("img", {
     src: "static/imgs/eucalipto_1.jpg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 39
+      columnNumber: 25
     }
-  }))), __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
-    }
-  }), __jsx("ul", {
-    className: "social-iconos col-md-6",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 17
-    }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 15
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 19
-    }
-  }, __jsx("i", {
-    className: "regadera",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 31
-    }
-  }, __jsx("img", {
-    src: "static/imgs/agua.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 55
-    }
-  })))), __jsx("li", {
+  }))))), __jsx("div", {
+    className: "containerr",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
-      columnNumber: 15
+      columnNumber: 6
     }
-  }, __jsx("a", {
-    href: "#",
+  }, __jsx("div", {
+    className: "row",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 19
+      lineNumber: 29,
+      columnNumber: 9
     }
-  }, __jsx("i", {
-    className: "tiempo",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 31
-    }
-  }, __jsx("img", {
-    src: "static/imgs/crecimiento (1).svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 53
-    }
-  }))))), __jsx("p", {
+  }, __jsx("div", {
+    "class": "col-sm-8",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
       columnNumber: 13
     }
-  }))), __jsx("br", {
+  }, __jsx("div", {
+    className: "row contenido-tercero",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 21
+    }
+  }, __jsx("h4", {
+    className: "col-sm",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/agua.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 52
+    }
+  })), __jsx("h4", {
+    className: "col-sm",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/sun.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 52
+    }
+  })), __jsx("h4", {
+    className: "col-sm",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/crecimiento (1).svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 52
+    }
+  })))), __jsx("div", {
+    "class": "col-sm-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, __jsx("h4", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 17
+    }
+  })))), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 9
     }
   }), __jsx("hr", {
@@ -5665,38 +5662,30 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 42,
       columnNumber: 15
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 42,
       columnNumber: 46
     }
   }), __jsx("div", {
-    className: "introductiondos",
+    className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 9
+      lineNumber: 43,
+      columnNumber: 6
     }
   }, __jsx("div", {
-    className: "row col-md-10",
+    className: "col align-self-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 11
-    }
-  }, __jsx("div", {
-    className: "info col-md-11",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 44,
       columnNumber: 13
     }
   }, __jsx("h4", {
@@ -5704,37 +5693,37 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 15
+      lineNumber: 45,
+      columnNumber: 17
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 43
+      lineNumber: 45,
+      columnNumber: 45
     }
   }, "M\xE1s informaci\xF3n")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 80
+      lineNumber: 45,
+      columnNumber: 82
     }
   }), __jsx("p", {
     className: "text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 15
+      lineNumber: 46,
+      columnNumber: 17
     }
-  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor."))))), __jsx(_components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor.")))), __jsx(_components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 7
+      lineNumber: 52,
+      columnNumber: 5
     }
   }));
 };
@@ -5743,7 +5732,7 @@ var Desc_Planta = function Desc_Planta() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FDesc_Planta&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CDesc_Planta.jsx ***!
   \*******************************************************************************************************************************************************************/
@@ -5766,5 +5755,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Desc_Planta.js.map
