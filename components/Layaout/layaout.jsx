@@ -14,7 +14,7 @@ const layaout = (props) => {
                 <link href="/static/css/desc_planta.css" rel="stylesheet" />
                 <link href="/static/css/footer.css" rel="stylesheet" />
                 <link href="/static/css/seccion.css" rel="stylesheet" />
-                
+                <link href="/static/css/login.css" rel="stylesheet" />
                 <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
 

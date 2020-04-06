@@ -8,27 +8,7 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Ajenjo": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Desc_Planta": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Manzanilla": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Medicinales": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Oregano": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Tomillo": [
+    "/Alimentos": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -44,7 +24,7 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/cola_de_caballo": [
+    "/login": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
