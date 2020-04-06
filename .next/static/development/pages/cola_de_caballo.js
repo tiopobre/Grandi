@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\Perfil.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\cola_de_caballo.js"],{
 
 /***/ "./components/Layaout/footer.jsx":
 /*!***************************************!*\
@@ -1323,21 +1323,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx!./":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx ***!
-  \*****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcola_de_caballo&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Ccola_de_caballo.jsx!./":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcola_de_caballo&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Ccola_de_caballo.jsx ***!
+  \***********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/Perfil", function() {
-      var mod = __webpack_require__(/*! ./pages/Perfil.jsx */ "./pages/Perfil.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/cola_de_caballo", function() {
+      var mod = __webpack_require__(/*! ./pages/cola_de_caballo.jsx */ "./pages/cola_de_caballo.jsx")
       if(true) {
-        module.hot.accept(/*! ./pages/Perfil.jsx */ "./pages/Perfil.jsx", function() {
-          if(!next.router.components["/Perfil"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/Perfil.jsx */ "./pages/Perfil.jsx")
-          next.router.update("/Perfil", updatedPage)
+        module.hot.accept(/*! ./pages/cola_de_caballo.jsx */ "./pages/cola_de_caballo.jsx", function() {
+          if(!next.router.components["/cola_de_caballo"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/cola_de_caballo.jsx */ "./pages/cola_de_caballo.jsx")
+          next.router.update("/cola_de_caballo", updatedPage)
         })
       }
       return mod
@@ -5453,10 +5453,10 @@ try {
 
 /***/ }),
 
-/***/ "./pages/Perfil.jsx":
-/*!**************************!*\
-  !*** ./pages/Perfil.jsx ***!
-  \**************************/
+/***/ "./pages/cola_de_caballo.jsx":
+/*!***********************************!*\
+  !*** ./pages/cola_de_caballo.jsx ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5469,335 +5469,326 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\Perfil.jsx";
+    _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\cola_de_caballo.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+ ////COLA DE CABALLO///
 
-
-var Perfil = function Perfil() {
+var Cola_de_caballo = function Cola_de_caballo() {
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    id: "contenedor",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "introduction",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 9
+      columnNumber: 6
     }
   }, __jsx("div", {
-    className: "row",
+    className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 11
+      columnNumber: 3
     }
   }, __jsx("div", {
-    className: "col-md-4",
+    className: "row align-items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
+      columnNumber: 6
+    }
+  }, __jsx("div", {
+    className: "col",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
       columnNumber: 13
     }
   }, __jsx("div", {
-    className: "icono",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 15
-    }
-  }, "  ", __jsx("img", {
-    src: "static/imgs/foto_perfil.png",
-    alt: "",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 40
-    }
-  })), __jsx("br", {
+    className: "row align-items-center contenido-primero",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 15
+      columnNumber: 17
     }
-  }), __jsx("h4", {
-    className: "text-center",
+  }, __jsx("h1", {
+    className: "col eucalipto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 15
+      columnNumber: 21
     }
-  }, __jsx("strong", {
+  }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 43
+      columnNumber: 51
     }
-  }, "ALEJANDRA GONZALES")), __jsx("p", {
-    className: "text-center",
+  }, "Cola de caballo")), __jsx("h4", {
+    className: "col-md-auto huno",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
-      columnNumber: 15
+      columnNumber: 21
     }
-  }, "\xA1Amante de las plantas y entusiasta!")), __jsx("div", {
-    className: "col-md-8",
+  }, __jsx("img", {
+    src: "static/imgs/passion.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 16,
+      columnNumber: 54
+    }
+  })), __jsx("h4", {
+    className: "col col-lg-2 hdos",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "static/imgs/planta2.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 55
+    }
+  }))), __jsx("p", {
+    className: "text-left puno",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 17
+    }
+  }, "La cola de caballo es una planta restauradora con numerosas propiedades para nuestro bienestar. Conocida desde siempre por su poder como diur\xE9tica tambi\xE9n es \xFAtil para los ri\xF1ones, el adelgazamiento y c\xF3mo depurativo y desintoxicante. "), __jsx("p", {
+    className: "text-left pdos",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "Esta planta originaria de Am\xE9rica y que crece en zonas arcillosas y al borde de cursos de agua hoy se ha propagado por todo el globo.")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "col contenido-segundo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "icono",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    src: "static/imgs/cola-caballo.jpg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 25
+    }
+  }))))), __jsx("div", {
+    className: "containerr",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 6
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "col-sm-8",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "row contenido-tercero",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 21
+    }
+  }, __jsx("h4", {
+    className: "col-sm htres",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/agua2.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 58
+    }
+  })), __jsx("h4", {
+    className: "col-sm hcuatro",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/sun2.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 60
+    }
+  })), __jsx("h4", {
+    className: "col-sm hcinco",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/crecimiento (4).svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 59
+    }
+  })))), __jsx("div", {
+    className: "col-sm-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
       columnNumber: 13
     }
   }, __jsx("h4", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 15
-    }
-  }, __jsx("strong", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 19
-    }
-  }, "TUS PLANTAS")), __jsx("br", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 15
-    }
-  }), __jsx("div", {
-    id: "interior",
-    className: "row",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "col-md-12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 19
-    }
-  }, __jsx("div", {
-    className: "col-md-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "icono",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 22
-    }
-  }, "  ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/Desc_Planta",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 47
-    }
-  }, __jsx("img", {
-    src: "static/imgs/sauco.png",
-    alt: "",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 73
-    }
-  })))), __jsx("div", {
-    className: "col-md-8",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 21
-    }
-  }, __jsx("h4", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 23
-    }
-  }, __jsx("strong", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 49
-    }
-  }, "SAUCO")), __jsx("br", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 23
-    }
-  }), __jsx("p", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 23
-    }
-  }, "El sauco es una plancta medicinal y es considerada como un botiqu\xEDn con el que se preparan diversos remedios naturales.")))), __jsx("div", {
-    className: "separador",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 17
-    }
-  }, __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 44
-    }
-  }, ".")), __jsx("div", {
-    className: "col-md-12",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 40,
-      columnNumber: 19
+      columnNumber: 17
     }
-  }, __jsx("div", {
-    className: "col-md-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "icono",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 23
-    }
-  }, "  ", __jsx("img", {
-    src: "static/imgs/zanahoria.png",
-    alt: "",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 48
-    }
-  }))), __jsx("div", {
-    className: "col-md-8",
+  })))), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44,
-      columnNumber: 21
+      columnNumber: 9
     }
-  }, __jsx("h4", {
-    className: "text-left",
+  }), __jsx("hr", {
+    className: "linea-separa",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 15
+    }
+  }), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 46
+    }
+  }), __jsx("div", {
+    className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
-      columnNumber: 23
+      columnNumber: 6
+    }
+  }, __jsx("div", {
+    className: "col align-self-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 13
+    }
+  }, __jsx("h4", {
+    className: "text-center hseis",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 17
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 49
+      lineNumber: 47,
+      columnNumber: 51
     }
-  }, "ZANAHORIA")), __jsx("br", {
+  }, "M\xE1s informaci\xF3n")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 80
+      lineNumber: 47,
+      columnNumber: 88
     }
   }), __jsx("p", {
-    className: "text-left",
+    className: "text-center info2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 23
+      lineNumber: 48,
+      columnNumber: 17
     }
-  }, "Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor."))))))))));
+  }, "La cola de caballo mejora la salud \xF3sea, contiene altas medidas de s\xEDlice, un mineral b\xE1sico para huesos s\xF3lidos. En una investigaci\xF3n italiana, se observ\xF3 que las se\xF1oras que padecen osteoporosis pose\xEDan ampliado el espesor \xF3seo despu\xE9s de un tiempo de suplementaci\xF3n utilizando la cola de caballo.")))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Perfil);
+/* harmony default export */ __webpack_exports__["default"] = (Cola_de_caballo);
 
 /***/ }),
 
-/***/ 2:
-/*!*********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx ***!
-  \*********************************************************************************************************************************************************/
+/***/ 5:
+/*!***************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcola_de_caballo&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Ccola_de_caballo.jsx ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FPerfil&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CPerfil.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcola_de_caballo&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Ccola_de_caballo.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcola_de_caballo&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5Ccola_de_caballo.jsx!./");
 
 
 /***/ }),
@@ -5813,5 +5804,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=Perfil.js.map
+},[[5,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=cola_de_caballo.js.map

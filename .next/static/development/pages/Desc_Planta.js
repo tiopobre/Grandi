@@ -5475,26 +5475,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
+ ////ALOE VERA///
 
 var Desc_Planta = function Desc_Planta() {
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 6
-    }
-  }, __jsx("div", {
-    className: "container",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 3
-    }
-  }, __jsx("div", {
-    className: "row align-items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5502,11 +5486,27 @@ var Desc_Planta = function Desc_Planta() {
       columnNumber: 6
     }
   }, __jsx("div", {
-    className: "col",
+    className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
+      columnNumber: 3
+    }
+  }, __jsx("div", {
+    className: "row align-items-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 6
+    }
+  }, __jsx("div", {
+    className: "col",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -5514,30 +5514,30 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 14,
       columnNumber: 17
     }
   }, __jsx("h1", {
-    className: "col",
+    className: "col eucalipto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 15,
       columnNumber: 21
     }
   }, __jsx("b", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 41
+      lineNumber: 15,
+      columnNumber: 51
     }
-  }, "Eucalipto")), __jsx("h4", {
-    className: "col-md-auto",
+  }, "Aloe Vera")), __jsx("h4", {
+    className: "col-md-auto huno",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 16,
       columnNumber: 21
     }
   }, __jsx("img", {
@@ -5545,46 +5545,46 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 49
+      lineNumber: 16,
+      columnNumber: 54
     }
   })), __jsx("h4", {
-    className: "col col-lg-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 21
-    }
-  }, __jsx("img", {
-    src: "static/imgs/planta.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 50
-    }
-  }))), __jsx("p", {
-    className: "text-left",
+    className: "col col-lg-2 hdos",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17,
-      columnNumber: 17
+      columnNumber: 21
     }
-  }, "Originario de Australia, este \xE1rbol de grandes dimensiones, crece r\xE1pidamente en todas las regiones templadas del planeta. Adem\xE1s, sus ra\xEDces absorben mucha agua del terreno."), __jsx("p", {
-    className: "text-left",
+  }, __jsx("img", {
+    src: "static/imgs/planta2.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 11
+      lineNumber: 17,
+      columnNumber: 55
     }
-  }, "Para usos medicinales se utilizan las hojas frescas para hacer aceite esencial de eucalipto y para inhalaciones, y las secas para infusiones.")), __jsx("div", {
+  }))), __jsx("p", {
+    className: "text-left puno",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 17
+    }
+  }, "Es una de las m\xE1s de 250 especies de Aloe conocidas en el mundo. Habita principalmente en zonas des\xE9rticas o semides\xE9rticas, donde se da el clima m\xE1s adecuado para su crecimiento."), __jsx("p", {
+    className: "text-left pdos",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
+      columnNumber: 11
+    }
+  }, "Las hojas del Aloe vera merecen especial atenci\xF3n, puesto que de ellas se extrae el jugo usado hist\xF3ricamente para curar todo tipo de dolencias. Carnosas, con un tama\xF1o de 50 cm de largo y un considerable grosor, son capaces de acumular gran cantidad de agua.")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -5592,7 +5592,7 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -5600,15 +5600,15 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 21
     }
   }, __jsx("img", {
-    src: "static/imgs/eucalipto_1.jpg",
+    src: "static/imgs/aloe_0.jpg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 25,
       columnNumber: 25
     }
   }))))), __jsx("div", {
@@ -5616,7 +5616,7 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 30,
       columnNumber: 6
     }
   }, __jsx("div", {
@@ -5624,7 +5624,7 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -5632,7 +5632,7 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 32,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -5640,43 +5640,11 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, __jsx("h4", {
-    className: "col-sm",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 29
-    }
-  }, __jsx("img", {
-    src: "static/imgs/agua.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 52
-    }
-  })), __jsx("h4", {
-    className: "col-sm",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 29
-    }
-  }, __jsx("img", {
-    src: "static/imgs/sun.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 52
-    }
-  })), __jsx("h4", {
-    className: "col-sm",
+    className: "col-sm htres",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5684,33 +5652,65 @@ var Desc_Planta = function Desc_Planta() {
       columnNumber: 29
     }
   }, __jsx("img", {
-    src: "static/imgs/crecimiento (1).svg",
+    src: "static/imgs/agua2.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34,
-      columnNumber: 52
+      columnNumber: 58
+    }
+  })), __jsx("h4", {
+    className: "col-sm hcuatro",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/sun2.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 60
+    }
+  })), __jsx("h4", {
+    className: "col-sm hcinco",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 29
+    }
+  }, __jsx("img", {
+    src: "static/imgs/crecimiento (4).svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 59
     }
   })))), __jsx("div", {
     className: "col-sm-4",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 13
     }
   }, __jsx("h4", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 17
     }
   })))), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 9
     }
   }), __jsx("hr", {
@@ -5718,14 +5718,14 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 15
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 44,
       columnNumber: 46
     }
   }), __jsx("div", {
@@ -5733,7 +5733,7 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 45,
       columnNumber: 6
     }
   }, __jsx("div", {
@@ -5741,47 +5741,47 @@ var Desc_Planta = function Desc_Planta() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 13
     }
   }, __jsx("h4", {
-    className: "text-center",
+    className: "text-center hseis",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 47,
       columnNumber: 17
     }
   }, __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 45
+      lineNumber: 47,
+      columnNumber: 51
     }
   }, "M\xE1s informaci\xF3n")), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 82
+      lineNumber: 47,
+      columnNumber: 88
     }
   }), __jsx("p", {
-    className: "text-center",
+    className: "text-center info2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 48,
       columnNumber: 17
     }
-  }, "Se usa como desinfectante y antis\xE9ptico para tratar varios procesos virales, afecciones respiratorias (tos, bronquitis, neumon\xEDa, asma\u2026) e infecciones de la piel. El uso m\xE1s frecuente son las inhalaciones. Para ello, se colocan varias hojas troceadas en un recipiente de agua hirviendo. Se pone encima la cabeza y se cubre totalmente con una toalla para inhalar el vapor.")))));
+  }, "El Aloe vera act\xFAa como desintoxicante, digestivo, depurativo, regenerador celular, bactericida, antis\xE9ptico, antiinflamatorio, analg\xE9sico, antiviral, inhibidor del dolor, anti-coagulante, estimulador del sistema inmune. A nivel t\xF3pico: cicatrizante y hidratante.")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Desc_Planta);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FDesc_Planta&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cpages%5CDesc_Planta.jsx ***!
   \*******************************************************************************************************************************************************************/
@@ -5804,5 +5804,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Desc_Planta.js.map

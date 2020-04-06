@@ -1,10 +1,15 @@
-p, h4 {
-	color: #4B762A;;
-	font-family: 'Bai Jamjuree', sans-serif;
-    }
+    .puno, .pdos, .info2 {
+		font-family: 'Bai Jamjuree', sans-serif;
+		color: #4B5D68;
+	}
+
+	.huno, .hdos, .htres, .hcuatro , .hcinco, .hseis {
+		color: #4B762A;
+		font-family: 'Bai Jamjuree', sans-serif;
+		}
     
-    h1 {
-        color: #4B762A;;
+	.eucalipto {
+        color: #4B762A;
         font-family: 'Bai Jamjuree', sans-serif;
         font-weight: bold;
         }
