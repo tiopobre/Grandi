@@ -106,7 +106,8 @@ var Firebase = /*#__PURE__*/function () {
           }
         }
       }, null, this, null, Promise);
-    }
+    } // Autenticar usuario
+
   }, {
     key: "login",
     value: function login(email, password) {
@@ -123,6 +124,24 @@ var Firebase = /*#__PURE__*/function () {
             case 3:
             case "end":
               return _context2.stop();
+          }
+        }
+      }, null, this, null, Promise);
+    } // Cerrar sesion de usuario
+
+  }, {
+    key: "cerrarSesion",
+    value: function cerrarSesion() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function cerrarSesion$(_context3) {
+        while (1) {
+          switch (_context3.prev = _context3.next) {
+            case 0:
+              _context3.next = 2;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(this.auth.signOut());
+
+            case 2:
+            case "end":
+              return _context3.stop();
           }
         }
       }, null, this, null, Promise);

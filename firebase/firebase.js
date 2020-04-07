@@ -17,12 +17,19 @@ class Firebase{
     //Registrar usuario E-mai Contraseña
     async registrar(nombre , email, password){
         const  nuevoUsuario = await this.auth.createUserWithEmailAndPassword(email, password);
-        return await nuevoUsuario.user.updateProfile({displayName : nombre})
+        return await nuevoUsuario.user.updateProfile({
+            displayName : nombre
+        })
     }
-
+    // Autenticar usuario
     async login(email,password){
         return await this.auth.signInWithEmailAndPassword(email,password);
     }
+
+     // Cerrar sesion de usuario
+     async cerrarSesion(){
+         await this.auth.signOut();
+     }
 }
 
 const firebase = new Firebase();

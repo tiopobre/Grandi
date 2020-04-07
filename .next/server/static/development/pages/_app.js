@@ -169,10 +169,16 @@ class Firebase {
     return await nuevoUsuario.user.updateProfile({
       displayName: nombre
     });
-  }
+  } // Autenticar usuario
+
 
   async login(email, password) {
     return await this.auth.signInWithEmailAndPassword(email, password);
+  } // Cerrar sesion de usuario
+
+
+  async cerrarSesion() {
+    await this.auth.signOut();
   }
 
 }

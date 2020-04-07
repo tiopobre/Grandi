@@ -260,16 +260,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Header = () => {
   const {
-    user,
+    usuario,
     firebase
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_4__["FirebaseContext"]);
-  return __jsx("header", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("header", {
     id: "header",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 9
+      columnNumber: 13
     }
   }, __jsx("nav", {
     className: "navbar navbar-expand-lg navbar-light bg-light",
@@ -277,7 +277,7 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 13
+      columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
@@ -285,7 +285,7 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("a", {
     className: "navbar-brand",
@@ -293,7 +293,7 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 33
+      columnNumber: 37
     }
   }, __jsx("img", {
     src: "static/imgs/LOGO_GRANDI.png",
@@ -302,7 +302,7 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 21
+      columnNumber: 25
     }
   }))), __jsx("button", {
     className: "navbar-toggler",
@@ -316,7 +316,7 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("span", {
     className: "navbar-toggler-icon",
@@ -324,7 +324,7 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
-      columnNumber: 21
+      columnNumber: 25
     }
   })), __jsx("div", {
     className: "collapse navbar-collapse",
@@ -333,151 +333,151 @@ const Header = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("ul", {
     className: "navbar-nav m-auto",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 21
+      lineNumber: 26,
+      columnNumber: 25
     }
   }, __jsx("li", {
     className: "nav-item active",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 25
+      lineNumber: 27,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 29
+      lineNumber: 28,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 44
+      lineNumber: 29,
+      columnNumber: 37
     }
-  }, "INICIO ", __jsx("span", {
+  }, "INICIO", __jsx("span", {
     className: "sr-only",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 76
+      lineNumber: 30,
+      columnNumber: 41
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 25
+      lineNumber: 34,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Alimentos",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 29
+      lineNumber: 35,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 54
+      lineNumber: 35,
+      columnNumber: 58
     }
   }, "ALIMENTOS"))), __jsx("li", {
     className: "nav-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 25
+      lineNumber: 37,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Medicinales",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 29
+      lineNumber: 38,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 56
+      lineNumber: 38,
+      columnNumber: 60
     }
   }, "MEDICINALES"))), __jsx("li", {
     className: "nav-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 25
+      lineNumber: 40,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Decorativas",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 29
+      lineNumber: 41,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 56
+      lineNumber: 41,
+      columnNumber: 60
     }
   }, "DECORATIVAS"))), __jsx("li", {
     className: "nav-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 25
+      lineNumber: 43,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Perfil",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 29
+      lineNumber: 44,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 51
+      lineNumber: 44,
+      columnNumber: 55
     }
   }, "PERFIL")))), __jsx("form", {
     className: "form-inline my-2 my-lg-0",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 21
+      lineNumber: 47,
+      columnNumber: 25
     }
   }, __jsx("input", {
     className: "form-control mr-sm-2",
@@ -487,8 +487,8 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 25
+      lineNumber: 48,
+      columnNumber: 29
     }
   }), __jsx("button", {
     className: "btn btn-outline-success my-2 my-sm-0",
@@ -496,10 +496,40 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 25
+      lineNumber: 49,
+      columnNumber: 29
     }
-  }, "Search")))));
+  }, "Search")), usuario ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 41
+    }
+  }, "Hola ", usuario.displayName), __jsx("button", {
+    onClick: () => firebase.cerrarSesion(),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 41
+    }
+  }, "Cerrar sesi\xF3n")) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/login",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 37
+    }
+  }, __jsx("button", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 41
+    }
+  }, "Login"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -883,10 +913,16 @@ class Firebase {
     return await nuevoUsuario.user.updateProfile({
       displayName: nombre
     });
-  }
+  } // Autenticar usuario
+
 
   async login(email, password) {
     return await this.auth.signInWithEmailAndPassword(email, password);
+  } // Cerrar sesion de usuario
+
+
+  async cerrarSesion() {
+    await this.auth.signOut();
   }
 
 }

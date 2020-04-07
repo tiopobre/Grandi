@@ -171,16 +171,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Header = function Header() {
   var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_4__["FirebaseContext"]),
-      user = _useContext.user,
+      usuario = _useContext.usuario,
       firebase = _useContext.firebase;
 
-  return __jsx("header", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("header", {
     id: "header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 9
+      columnNumber: 13
     }
   }, __jsx("nav", {
     className: "navbar navbar-expand-lg navbar-light bg-light",
@@ -188,7 +188,7 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 13
+      columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
@@ -196,7 +196,7 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("a", {
     className: "navbar-brand",
@@ -204,7 +204,7 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
-      columnNumber: 33
+      columnNumber: 37
     }
   }, __jsx("img", {
     src: "static/imgs/LOGO_GRANDI.png",
@@ -213,7 +213,7 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
-      columnNumber: 21
+      columnNumber: 25
     }
   }))), __jsx("button", {
     className: "navbar-toggler",
@@ -227,7 +227,7 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("span", {
     className: "navbar-toggler-icon",
@@ -235,7 +235,7 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
-      columnNumber: 21
+      columnNumber: 25
     }
   })), __jsx("div", {
     className: "collapse navbar-collapse",
@@ -244,151 +244,151 @@ var Header = function Header() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 17
+      columnNumber: 21
     }
   }, __jsx("ul", {
     className: "navbar-nav m-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 21
+      lineNumber: 26,
+      columnNumber: 25
     }
   }, __jsx("li", {
     className: "nav-item active",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 25
+      lineNumber: 27,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 29
+      lineNumber: 28,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 44
+      lineNumber: 29,
+      columnNumber: 37
     }
-  }, "INICIO ", __jsx("span", {
+  }, "INICIO", __jsx("span", {
     className: "sr-only",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 76
+      lineNumber: 30,
+      columnNumber: 41
     }
   }, "(current)")))), __jsx("li", {
     className: "nav-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 25
+      lineNumber: 34,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Alimentos",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 29
+      lineNumber: 35,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 54
+      lineNumber: 35,
+      columnNumber: 58
     }
   }, "ALIMENTOS"))), __jsx("li", {
     className: "nav-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 25
+      lineNumber: 37,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Medicinales",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 29
+      lineNumber: 38,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 56
+      lineNumber: 38,
+      columnNumber: 60
     }
   }, "MEDICINALES"))), __jsx("li", {
     className: "nav-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 25
+      lineNumber: 40,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Decorativas",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 29
+      lineNumber: 41,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 56
+      lineNumber: 41,
+      columnNumber: 60
     }
   }, "DECORATIVAS"))), __jsx("li", {
     className: "nav-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 25
+      lineNumber: 43,
+      columnNumber: 29
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/Perfil",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 29
+      lineNumber: 44,
+      columnNumber: 33
     }
   }, __jsx("a", {
     className: "nav-link",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 51
+      lineNumber: 44,
+      columnNumber: 55
     }
   }, "PERFIL")))), __jsx("form", {
     className: "form-inline my-2 my-lg-0",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 21
+      lineNumber: 47,
+      columnNumber: 25
     }
   }, __jsx("input", {
     className: "form-control mr-sm-2",
@@ -398,8 +398,8 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 25
+      lineNumber: 48,
+      columnNumber: 29
     }
   }), __jsx("button", {
     className: "btn btn-outline-success my-2 my-sm-0",
@@ -407,10 +407,42 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 25
+      lineNumber: 49,
+      columnNumber: 29
     }
-  }, "Search")))));
+  }, "Search")), usuario ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 41
+    }
+  }, "Hola ", usuario.displayName), __jsx("button", {
+    onClick: function onClick() {
+      return firebase.cerrarSesion();
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 41
+    }
+  }, "Cerrar sesi\xF3n")) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/login",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 37
+    }
+  }, __jsx("button", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 41
+    }
+  }, "Login"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -830,7 +862,8 @@ var Firebase = /*#__PURE__*/function () {
           }
         }
       }, null, this, null, Promise);
-    }
+    } // Autenticar usuario
+
   }, {
     key: "login",
     value: function login(email, password) {
@@ -847,6 +880,24 @@ var Firebase = /*#__PURE__*/function () {
             case 3:
             case "end":
               return _context2.stop();
+          }
+        }
+      }, null, this, null, Promise);
+    } // Cerrar sesion de usuario
+
+  }, {
+    key: "cerrarSesion",
+    value: function cerrarSesion() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function cerrarSesion$(_context3) {
+        while (1) {
+          switch (_context3.prev = _context3.next) {
+            case 0:
+              _context3.next = 2;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(this.auth.signOut());
+
+            case 2:
+            case "end":
+              return _context3.stop();
           }
         }
       }, null, this, null, Promise);
