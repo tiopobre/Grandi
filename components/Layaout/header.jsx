@@ -4,7 +4,7 @@ import Navegacion from './navegacion'
 import Link from 'next/link'
 import {FirebaseContext} from '../../firebase' // context
 const Header = () => {
-    const {usuario,firebase} = useContext(FirebaseContext);
+const {usuario,firebase} = useContext(FirebaseContext);
     return (
         <>
             <header id="header">
@@ -40,9 +40,16 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link href="/Decorativas" ><a className="nav-link">DECORATIVAS</a></Link>
                             </li>
-                            <li className="nav-item">
-                                <Link href="/Perfil" ><a className="nav-link">PERFIL</a></Link>
-                            </li>
+                            {usuario &&                            
+                                (
+                                    <>
+                                        <li className="nav-item">
+                                            <Link href="/Perfil" ><a className="nav-link">PERFIL</a></Link>
+                                        </li>
+                                    </>
+                                )
+                                                        
+                        }
                         </ul>
                         <form className="form-inline my-2 my-lg-0">
                             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />

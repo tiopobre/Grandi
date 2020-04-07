@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layaout from '../components/Layaout/layaout'
 import Footer from '../components/Layaout/footer';
-
+import Router from 'next/router'
 import firebase from '../firebase';
 //validaciones
 import useValidacion from '../hooks/useValidacion'
