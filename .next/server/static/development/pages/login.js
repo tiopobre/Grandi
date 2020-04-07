@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\footer.jsx";
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\footer.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -249,20 +249,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\header.jsx";
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../firebase */ "./firebase/index.js");
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\header.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+ // context
 
 const Header = () => {
+  const {
+    user,
+    firebase
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_4__["FirebaseContext"]);
   return __jsx("header", {
     id: "header",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 10,
       columnNumber: 9
     }
   }, __jsx("nav", {
@@ -270,7 +276,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 12,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -278,7 +284,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 14,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -286,7 +292,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 14,
       columnNumber: 33
     }
   }, __jsx("img", {
@@ -295,7 +301,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 15,
       columnNumber: 21
     }
   }))), __jsx("button", {
@@ -309,7 +315,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 19,
       columnNumber: 17
     }
   }, __jsx("span", {
@@ -317,7 +323,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 21
     }
   })), __jsx("div", {
@@ -326,7 +332,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 17
     }
   }, __jsx("ul", {
@@ -334,7 +340,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 21
     }
   }, __jsx("li", {
@@ -342,7 +348,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 25
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -350,7 +356,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 25,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -358,7 +364,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 25,
       columnNumber: 44
     }
   }, "INICIO ", __jsx("span", {
@@ -366,7 +372,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 25,
       columnNumber: 76
     }
   }, "(current)")))), __jsx("li", {
@@ -374,7 +380,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 27,
       columnNumber: 25
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -382,7 +388,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -390,7 +396,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 54
     }
   }, "ALIMENTOS"))), __jsx("li", {
@@ -398,7 +404,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 30,
       columnNumber: 25
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -406,7 +412,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -414,7 +420,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 31,
       columnNumber: 56
     }
   }, "MEDICINALES"))), __jsx("li", {
@@ -422,7 +428,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 33,
       columnNumber: 25
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -430,7 +436,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 34,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -438,7 +444,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 34,
       columnNumber: 56
     }
   }, "DECORATIVAS"))), __jsx("li", {
@@ -446,7 +452,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 25
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -454,7 +460,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -462,7 +468,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 51
     }
   }, "PERFIL")))), __jsx("form", {
@@ -470,7 +476,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -481,7 +487,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 41,
       columnNumber: 25
     }
   }), __jsx("button", {
@@ -490,7 +496,7 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 25
     }
   }, "Search")))));
@@ -517,7 +523,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./components/Layaout/footer.jsx");
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\layaout.jsx";
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\layaout.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -670,7 +676,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\navegacion.jsx";
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\navegacion.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -766,7 +772,7 @@ const Navegacion = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\UI\\buscador.jsx";
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\UI\\buscador.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -798,6 +804,187 @@ const Buscador = () => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Buscador);
+
+/***/ }),
+
+/***/ "./firebase/config.js":
+/*!****************************!*\
+  !*** ./firebase/config.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const firebaseConfig = {
+  apiKey: "AIzaSyB8-DUEmJvK9nNWqT7nwhtbdkszJS4BoxM",
+  authDomain: "grandidb-bb585.firebaseapp.com",
+  databaseURL: "https://grandidb-bb585.firebaseio.com",
+  projectId: "grandidb-bb585",
+  storageBucket: "grandidb-bb585.appspot.com",
+  messagingSenderId: "206626186182",
+  appId: "1:206626186182:web:e41d231dcd8aa9652708c7",
+  measurementId: "G-P709ZE4JRJ"
+};
+/* harmony default export */ __webpack_exports__["default"] = (firebaseConfig);
+
+/***/ }),
+
+/***/ "./firebase/context.js":
+/*!*****************************!*\
+  !*** ./firebase/context.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const FirebaseContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])(null);
+/* harmony default export */ __webpack_exports__["default"] = (FirebaseContext);
+
+/***/ }),
+
+/***/ "./firebase/firebase.js":
+/*!******************************!*\
+  !*** ./firebase/firebase.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/app */ "firebase/app");
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(firebase_app__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/auth */ "firebase/auth");
+/* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(firebase_auth__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./config */ "./firebase/config.js");
+
+
+
+
+class Firebase {
+  constructor() {
+    if (!firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.apps.length) {
+      firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializeApp(_config__WEBPACK_IMPORTED_MODULE_2__["default"]);
+    }
+
+    this.auth = firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.auth();
+  } //************************************************************* 
+  //***************** Funciones de Firebase ********************* 
+  //************************************************************* 
+  //Registrar usuario E-mai Contraseña
+
+
+  async registrar(nombre, email, password) {
+    const nuevoUsuario = await this.auth.createUserWithEmailAndPassword(email, password);
+    return await nuevoUsuario.user.updateProfile({
+      displayName: nombre
+    });
+  }
+
+  async login(email, password) {
+    return await this.auth.signInWithEmailAndPassword(email, password);
+  }
+
+}
+
+const firebase = new Firebase();
+/* harmony default export */ __webpack_exports__["default"] = (firebase);
+
+/***/ }),
+
+/***/ "./firebase/index.js":
+/*!***************************!*\
+  !*** ./firebase/index.js ***!
+  \***************************/
+/*! exports provided: FirebaseContext, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./firebase */ "./firebase/firebase.js");
+/* harmony import */ var _firebase_context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../firebase/context */ "./firebase/context.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FirebaseContext", function() { return _firebase_context__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_firebase__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
+/***/ "./hooks/useValidacion.jsx":
+/*!*********************************!*\
+  !*** ./hooks/useValidacion.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+const useValidacion = (stateInicial, validar, fn) => {
+  const {
+    0: valores,
+    1: setValores
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(stateInicial);
+  const {
+    0: errores,
+    1: setErrores
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({});
+  const {
+    0: submitForm,
+    1: setSubmitForm
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false); // Funcion que escucha 
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    if (submitForm) {
+      const noErrores = Object.keys(errores).length === 0;
+
+      if (noErrores) {
+        fn(); //Funcion que se ejecuta en el componente dependiendo del formulario
+      }
+
+      setSubmitForm(false);
+    }
+  }, [errores]); // Funcion que se ejecuta cuando el usuraio escribe
+
+  const handleChange = e => {
+    console.log('state', valores);
+    setValores(_objectSpread({}, valores, {
+      [e.target.name]: e.target.value
+    }));
+  }; // Funcion que se ejecutara con el submit
+
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const erroresValidacion = validar(valores);
+    setErrores(erroresValidacion);
+    setSubmitForm(true);
+  };
+
+  return {
+    valores,
+    errores,
+    handleChange,
+    handleSubmit
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (useValidacion);
 
 /***/ }),
 
@@ -2489,21 +2676,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
 /* harmony import */ var _components_Layaout_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layaout/footer */ "./components/Layaout/footer.jsx");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\login.jsx";
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
+/* harmony import */ var _hooks_useValidacion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/useValidacion */ "./hooks/useValidacion.jsx");
+/* harmony import */ var _validacion_validarLogin__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../validacion/validarLogin */ "./validacion/validarLogin.jsx");
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\login.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+ //validaciones
+
+
+ // State Inicial
+
+const STATE_INICIAL = {
+  email: '',
+  password: ''
+};
 
 const Login = () => {
+  const {
+    valores,
+    errores,
+    handleChange,
+    handleSubmit
+  } = Object(_hooks_useValidacion__WEBPACK_IMPORTED_MODULE_5__["default"])(STATE_INICIAL, _validacion_validarLogin__WEBPACK_IMPORTED_MODULE_6__["default"], iniciasSesion);
+  const {
+    email,
+    password
+  } = valores;
+
+  async function iniciasSesion() {
+    try {
+      await _firebase__WEBPACK_IMPORTED_MODULE_4__["default"].login(email, password);
+      next_router__WEBPACK_IMPORTED_MODULE_3___default.a.push('/');
+    } catch (error) {
+      console.error('Hubo un error al autenticar', error.message); //guardarError
+    }
+  }
+
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 29,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2511,7 +2730,7 @@ const Login = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 30,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -2519,7 +2738,7 @@ const Login = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 31,
       columnNumber: 9
     }
   }, __jsx("img", {
@@ -2529,7 +2748,7 @@ const Login = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 32,
       columnNumber: 11
     }
   }), __jsx("p", {
@@ -2538,15 +2757,16 @@ const Login = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 33,
       columnNumber: 11
     }
   }), __jsx("form", {
     className: "form-signin",
+    onSubmit: handleSubmit,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 35,
       columnNumber: 11
     }
   }, __jsx("span", {
@@ -2555,41 +2775,63 @@ const Login = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 39,
       columnNumber: 13
     }
   }), __jsx("input", {
+    name: "email",
     type: "email",
     id: "inputEmail",
     className: "form-control",
-    placeholder: "Usuario",
+    placeholder: "e-mail",
     required: true,
-    autofocus: true,
+    autoFocus: true,
+    value: email,
+    onChange: handleChange,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 43,
       columnNumber: 13
     }
-  }), __jsx("input", {
+  }), errores.email && __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 31
+    }
+  }, errores.email), __jsx("input", {
+    name: "password",
     type: "password",
     id: "inputPassword",
     className: "form-control",
     placeholder: "Contrase\xF1a",
     required: true,
+    autoFocus: true,
+    value: password,
+    onChange: handleChange,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 55,
       columnNumber: 13
     }
-  }), __jsx("button", {
-    className: "btn btn-lg btn-primary btn-block btn-signin",
-    type: "submit",
+  }), errores.email && __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 66,
+      columnNumber: 30
+    }
+  }, errores.password), __jsx("button", {
+    className: "btn btn-lg btn-primary btn-block btn-signin",
+    type: "submit",
+    value: "login",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
       columnNumber: 13
     }
   }, "Ingresar")))));
@@ -2599,15 +2841,66 @@ const Login = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ "./validacion/validarLogin.jsx":
+/*!*************************************!*\
+  !*** ./validacion/validarLogin.jsx ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return validarCrearCuenta; });
+function validarCrearCuenta(valores) {
+  let errores = {}; // validar el e-mail de usuario
+
+  if (!valores.email) {
+    errores.email = "El e-mail es obligtorio";
+  } else if (!/^[A-Z0-9._%+-]+@[A-Z-9.-]+\.[A-Z]{2,}$/i.test(valores.email)) {
+    errores.email = "El e-mail no es valido";
+  } // validar el password
+
+
+  if (!valores.password) {
+    errores.password = "El Password es obligtorio";
+  }
+
+  return errores;
+}
+
+/***/ }),
+
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/login.jsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\JSP_1\OneDrive\Documents\GitHub\Grandi\pages\login.jsx */"./pages/login.jsx");
+module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\pages\login.jsx */"./pages/login.jsx");
 
+
+/***/ }),
+
+/***/ "firebase/app":
+/*!*******************************!*\
+  !*** external "firebase/app" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("firebase/app");
+
+/***/ }),
+
+/***/ "firebase/auth":
+/*!********************************!*\
+  !*** external "firebase/auth" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("firebase/auth");
 
 /***/ }),
 
@@ -2619,6 +2912,17 @@ module.exports = __webpack_require__(/*! C:\Users\JSP_1\OneDrive\Documents\GitHu
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 

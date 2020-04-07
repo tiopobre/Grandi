@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Buscador from '../UI/buscador'
 import Navegacion from './navegacion'
 import Link from 'next/link'
+import {FirebaseContext} from '../../firebase' // context
 const Header = () => {
+    const {user,firebase} = useContext(FirebaseContext);
     return (
 
         <header id="header">

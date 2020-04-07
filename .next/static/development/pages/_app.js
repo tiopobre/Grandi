@@ -107,6 +107,26 @@ var Firebase = /*#__PURE__*/function () {
         }
       }, null, this, null, Promise);
     }
+  }, {
+    key: "login",
+    value: function login(email, password) {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function login$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(this.auth.signInWithEmailAndPassword(email, password));
+
+            case 2:
+              return _context2.abrupt("return", _context2.sent);
+
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, null, this, null, Promise);
+    }
   }]);
 
   return Firebase;
@@ -134,6 +154,45 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (_firebase__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
+/***/ "./hooks/useAutenticacion.jsx":
+/*!************************************!*\
+  !*** ./hooks/useAutenticacion.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
+
+
+
+var useAutentificacion = function useAutentificacion() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
+      usuarioAutenticado = _useState[0],
+      setUsuarioAutenticado = _useState[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    var unsuscribe = _firebase__WEBPACK_IMPORTED_MODULE_1__["default"].auth.onAuthStateChanged(function (usuario) {
+      if (usuario) {
+        setUsuarioAutenticado(usuario);
+      } else {
+        setUsuarioAutenticado(null);
+      }
+    });
+    return function () {
+      return unsuscribe();
+    };
+  }, []);
+  return usuarioAutenticado;
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (useAutentificacion);
 
 /***/ }),
 
@@ -7212,34 +7271,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
+/* harmony import */ var _hooks_useAutenticacion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/useAutenticacion */ "./hooks/useAutenticacion.jsx");
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\_app.js";
+    _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\_app.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+
 var MyApp = function MyApp(props) {
+  var usuario = Object(_hooks_useAutenticacion__WEBPACK_IMPORTED_MODULE_4__["default"])();
+  console.log(usuario);
   var Component = props.Component,
       pageProps = props.pageProps;
   return __jsx(_firebase__WEBPACK_IMPORTED_MODULE_3__["FirebaseContext"].Provider, {
     value: {
-      firebase: _firebase__WEBPACK_IMPORTED_MODULE_3__["default"]
+      firebase: _firebase__WEBPACK_IMPORTED_MODULE_3__["default"],
+      usuario: usuario
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 9,
       columnNumber: 9
     }
   }, __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 15,
       columnNumber: 13
     }
   })));
@@ -7257,7 +7321,7 @@ var MyApp = function MyApp(props) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! C:\Users\JSP_1\OneDrive\Documents\GitHub\Grandi\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
