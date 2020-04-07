@@ -8,7 +8,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Alimentos": [
+    "/Hoja_rota": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Peperomia": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -23,10 +27,6 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
-    ],
-    "/login": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
