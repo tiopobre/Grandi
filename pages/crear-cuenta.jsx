@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layaout from '../components/Layaout/layaout'
 import Footer from '../components/Layaout/footer';
-
+import Router from 'next/router'
 import firebase from '../firebase';
 //validaciones
 import useValidacion from '../hooks/useValidacion'
@@ -25,7 +25,7 @@ const crearCuenta = () => {
         try{    
             await firebase.registrar(nombre, email, password);
         }catch(error){
-            console.error('Hubo un error al crear el usuario', error);
+            console.error('Hubo un error al crear el usuario', error.message);
         }
     }
     return ( 
