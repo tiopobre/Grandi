@@ -8,15 +8,31 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-<<<<<<< HEAD
-    "/Hoja_rota": [
+    "/Ajo": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/Peperomia": [
-=======
-    "/Decorativas": [
->>>>>>> 3def2065cfc6effd4332625026666bff88334a5b
+    "/Alimentos": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Cebolla": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Fresa": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Lechuga": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Tomate_cherry": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Zanahoria": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -31,13 +47,10 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
-<<<<<<< HEAD
-=======
     ],
-    "/perfil": [
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
->>>>>>> 3def2065cfc6effd4332625026666bff88334a5b
     ]
   }
 }
