@@ -28610,7 +28610,7 @@ var state_ini = {
 var Planta = function Planta() {
   //Routing para obtener el id actual
   var router = Object(next_router__WEBPACK_IMPORTED_MODULE_3__["useRouter"])();
-  console.log(router);
+  console.log('router', router);
   var id = router.query.id;
   console.log('id : ', id); // state
 
@@ -28982,7 +28982,7 @@ var Planta = function Planta() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fplantas%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5Cplantas%5C%5Bid%5D.jsx ***!
   \************************************************************************************************************************************************************************/
@@ -29005,5 +29005,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map

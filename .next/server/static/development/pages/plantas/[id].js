@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2661,7 +2661,7 @@ const state_ini = {
 const Planta = () => {
   //Routing para obtener el id actual
   const router = Object(next_router__WEBPACK_IMPORTED_MODULE_3__["useRouter"])();
-  console.log(router);
+  console.log('router', router);
   const {
     query: {
       id
@@ -3035,7 +3035,7 @@ const Planta = () => {
 
 /***/ }),
 
-/***/ 7:
+/***/ 5:
 /*!**************************************!*\
   !*** multi ./pages/plantas/[id].jsx ***!
   \**************************************/

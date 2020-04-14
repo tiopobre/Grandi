@@ -28916,7 +28916,7 @@ var Medicinales = function Medicinales() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FMedicinales&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CMedicinales.jsx ***!
   \**********************************************************************************************************************************************************/
@@ -28939,5 +28939,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=Medicinales.js.map

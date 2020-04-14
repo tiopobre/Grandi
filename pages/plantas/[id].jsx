@@ -14,7 +14,7 @@ const state_ini ={
 const Planta = () => {
     //Routing para obtener el id actual
     const router = useRouter();
-    console.log( router);
+    console.log('router', router);
     const {query: { id }} = router;
     console.log( 'id : ',id);
     // state

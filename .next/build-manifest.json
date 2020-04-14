@@ -8,14 +8,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Alimentos": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/Decorativas": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/Medicinales": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
