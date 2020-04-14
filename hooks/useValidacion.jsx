@@ -11,13 +11,14 @@ const useValidacion = (stateInicial, validar, fn) => {
             const noErrores = Object.keys(errores).length ===0;
             if(noErrores){
                 fn(); //Funcion que se ejecuta en el componente dependiendo del formulario
+                
             }
             setSubmitForm (false);
         }
     }, [errores]);
     // Funcion que se ejecuta cuando el usuraio escribe
     const handleChange= e =>{
-        console.log('state', valores)
+        //console.log('state', valores)
         setValores({
             ...valores,
             [e.target.name] : e.target.value
@@ -25,6 +26,7 @@ const useValidacion = (stateInicial, validar, fn) => {
     }
     // Funcion que se ejecutara con el submit
     const handleSubmit = e => {
+        console.log('submit');
         e.preventDefault();
         const erroresValidacion = validar(valores)
         setErrores(erroresValidacion);

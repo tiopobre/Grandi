@@ -1,17 +1,21 @@
 import React, {useContext} from 'react';
 import Layaout from '../components/Layaout/layaout'
 import dynamic from "next/dynamic";
+import Router ,{useRouter} from 'next/router'
 const LoginPage = dynamic(() => import("./login"));
 import Link from 'next/link'
 import {FirebaseContext} from '../firebase' // context
+
 const Perfil = () => {
+  // Context de firebase
   const {usuario,firebase} = useContext(FirebaseContext);
+  // enrutador
+  const router = useRouter();
   if (usuario){
     return (
-      
-      <Layaout>
-        <>
-          {usuario 
+      <>
+        <Layaout>
+          {usuario && 
             (
               <div id="contenedor">{/* Contenedor principal */}
             <div className="introduction">
@@ -21,9 +25,16 @@ const Perfil = () => {
                   <br />
                   <h4 className="text-center"><strong>ALEJANDRA GONZALES</strong></h4>
                   <p className="text-center">¡Amante de las plantas y entusiasta!</p>
+                  <Link href="/Nuevo-cultivo" >
+                    <button 
+                      type="button" 
+                      value= "nuevo-cultivo"
+                      className="btn btn-primary "
+                    >Agrergar Cultivo</button>
+                  </Link>
                 </div>
                 <div className="col-md-8">
-                  <h4><strong>TUS PLANTAS</strong></h4>
+                  <h4><strong>TUS CULTIVOS</strong></h4>
                   <br />
                   <div id="interior" className="row">
                     <div className="col-md-12">
@@ -63,13 +74,12 @@ const Perfil = () => {
             )
             
           }
-        </>
-          
-
-      </Layaout>
-  )
+        </Layaout>
+      </>  
+    );
   }
   else{
+    //return router.push('/login');  // enrutador 
     return  <LoginPage/>;
   }
 

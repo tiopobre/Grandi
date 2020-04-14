@@ -1,5 +1,7 @@
 import app from 'firebase/app';
 import'firebase/auth';
+import'firebase/firestore';
+import 'firebase/storage';
 import firebaseConfig from './config'
 
 class Firebase{
@@ -8,10 +10,18 @@ class Firebase{
             app.initializeApp(firebaseConfig)
         }
         this.auth = app.auth();
+        this.db = app.firestore();
+        this.storage = app.storage();
     }
 
+    //**********************************************************************
+    //********************************************************************** 
+    //********************** Funciones de Firebase ************************* 
+    //********************************************************************** 
+    //**********************************************************************
+
     //************************************************************* 
-    //***************** Funciones de Firebase ********************* 
+    //******************** Autenticacion ************************** 
     //************************************************************* 
 
     //Registrar usuario E-mai Contraseña
@@ -30,6 +40,11 @@ class Firebase{
      async cerrarSesion(){
          await this.auth.signOut();
      }
+
+    //************************************************************* 
+    //******************** Base De Datos ************************** 
+    //************************************************************* 
+
 }
 
 const firebase = new Firebase();

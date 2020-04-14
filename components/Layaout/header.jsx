@@ -44,17 +44,14 @@ const {usuario,firebase} = useContext(FirebaseContext);
                                 (
                                     <>
                                         <li className="nav-item">
-                                            <Link href="/Perfil" ><a className="nav-link">PERFIL</a></Link>
+                                            <Link href="/perfil" ><a className="nav-link">PERFIL</a></Link>
                                         </li>
                                     </>
                                 )
                                                         
                         }
                         </ul>
-                        <form className="form-inline my-2 my-lg-0">
-                            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+                        <Buscador/>
                         {usuario 
                             ? 
                                 (

@@ -268,10 +268,10 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -827,14 +827,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ 2:
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ 6:
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \**************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CJSP_1%5COneDrive%5CDocuments%5CGitHub%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./");
 
 
 /***/ }),
@@ -850,5 +850,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

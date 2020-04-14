@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Layaout from '../components/Layaout/layaout'
-
 import Router from 'next/router'
 import firebase from '../firebase';
 //validaciones
@@ -15,7 +14,6 @@ const STATE_INICIAL = {
 const Login = () => {
     const {valores, errores, handleChange, handleSubmit,} =  useValidacion(STATE_INICIAL, validarLogin, iniciasSesion)
     const {email, password} = valores;
-
     async function iniciasSesion (){
         try {
             await firebase.login(email,password);

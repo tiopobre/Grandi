@@ -146,7 +146,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(firebase_app__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/auth */ "firebase/auth");
 /* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(firebase_auth__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./config */ "./firebase/config.js");
+/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/firestore */ "firebase/firestore");
+/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(firebase_firestore__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var firebase_storage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! firebase/storage */ "firebase/storage");
+/* harmony import */ var firebase_storage__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(firebase_storage__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./config */ "./firebase/config.js");
+
+
 
 
 
@@ -154,12 +160,19 @@ __webpack_require__.r(__webpack_exports__);
 class Firebase {
   constructor() {
     if (!firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.apps.length) {
-      firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializeApp(_config__WEBPACK_IMPORTED_MODULE_2__["default"]);
+      firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializeApp(_config__WEBPACK_IMPORTED_MODULE_4__["default"]);
     }
 
     this.auth = firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.auth();
-  } //************************************************************* 
-  //***************** Funciones de Firebase ********************* 
+    this.db = firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.firestore();
+    this.storage = firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.storage();
+  } //**********************************************************************
+  //********************************************************************** 
+  //********************** Funciones de Firebase ************************* 
+  //********************************************************************** 
+  //**********************************************************************
+  //************************************************************* 
+  //******************** Autenticacion ************************** 
   //************************************************************* 
   //Registrar usuario E-mai Contraseña
 
@@ -179,7 +192,10 @@ class Firebase {
 
   async cerrarSesion() {
     await this.auth.signOut();
-  }
+  } //************************************************************* 
+  //******************** Base De Datos ************************** 
+  //************************************************************* 
+
 
 }
 
@@ -560,7 +576,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
 /* harmony import */ var _hooks_useAutenticacion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../hooks/useAutenticacion */ "./hooks/useAutenticacion.jsx");
-var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -633,6 +649,28 @@ module.exports = require("firebase/app");
 /***/ (function(module, exports) {
 
 module.exports = require("firebase/auth");
+
+/***/ }),
+
+/***/ "firebase/firestore":
+/*!*************************************!*\
+  !*** external "firebase/firestore" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("firebase/firestore");
+
+/***/ }),
+
+/***/ "firebase/storage":
+/*!***********************************!*\
+  !*** external "firebase/storage" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("firebase/storage");
 
 /***/ }),
 
