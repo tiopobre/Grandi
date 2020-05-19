@@ -47,9 +47,8 @@ const {usuario,firebase} = useContext(FirebaseContext);
                                             <Link href="/perfil" ><a className="nav-link">PERFIL</a></Link>
                                         </li>
                                     </>
-                                )
-                                                        
-                        }
+                                )                        
+                            }
                         </ul>
                         <Buscador/>
                         {usuario 
@@ -64,9 +63,16 @@ const {usuario,firebase} = useContext(FirebaseContext);
                                 )
                             :
                                 (   
-                                    <Link href="/login" >
-                                        <button>Login</button>
-                                    </Link>
+                                    <>
+                                        <Link href="/login" >
+                                            <button>Login</button>
+                                        </Link>
+
+                                        <Link href="/crear-cuenta" >
+                                            <button>Crear Cuenta</button>
+                                        </Link>
+                                    </>
+                                    
                                 )                              
                         }
                     </div>       

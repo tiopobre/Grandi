@@ -23,6 +23,7 @@ const Planta = () => {
     const {firebase} = useContext(FirebaseContext);
     // usse effect donde buscara en firebase
     useEffect(() => {
+        
         const obtenerPlantas = () =>{
             firebase.db.collection("plantas").doc(id).get().then(doc => {
                 // si doc existe

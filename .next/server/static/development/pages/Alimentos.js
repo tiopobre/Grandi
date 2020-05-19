@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -92,6 +92,268 @@ module.exports =
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/Dinamicos/cardPlanta.jsx":
+/*!*********************************************!*\
+  !*** ./components/Dinamicos/cardPlanta.jsx ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Dinamicos\\cardPlanta.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const cardPlanta = ({
+  planta
+}) => {
+  const {
+    id,
+    nombre,
+    cardImg
+  } = planta;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+    className: "col-md-4 animate-box",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "feature-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, __jsx("img", {
+    className: "plant_img",
+    src: cardImg,
+    alt: "",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 15
+    }
+  }), __jsx("div", {
+    className: "feature-copy",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 15
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 17
+    }
+  }, "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/plantas/[id]",
+    as: `/plantas/${id}`,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 19
+    }
+  }, __jsx("a", {
+    href: "#",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 22
+    }
+  }, "Aprende mas", __jsx("i", {
+    className: "icon-arrow-right22",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 21
+    }
+  })))), __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 17
+    }
+  }, nombre)))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (cardPlanta);
+
+__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null);
+
+/***/ }),
+
+/***/ "./components/Dinamicos/seccion.jsx":
+/*!******************************************!*\
+  !*** ./components/Dinamicos/seccion.jsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _UI_buscador__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../UI/buscador */ "./components/UI/buscador.jsx");
+/* harmony import */ var _Dinamicos_cardPlanta__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Dinamicos/cardPlanta */ "./components/Dinamicos/cardPlanta.jsx");
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../firebase */ "./firebase/index.js");
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Dinamicos\\seccion.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+ //firebase
+
+ // context
+
+const Seccion = ({
+  seccion,
+  seccionDB,
+  imgSeccion
+}) => {
+  const {
+    0: plantas,
+    1: setPlantas
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
+  const {
+    firebase
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_3__["FirebaseContext"]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    const obtenerPlantas = () => {
+      firebase.db.collection('plantas').where(seccionDB, '==', true).onSnapshot(manejarSnapShot);
+    };
+
+    obtenerPlantas();
+  }, []); // funcion que manipula el snapshot
+
+  function manejarSnapShot(snapshot) {
+    const plantas = snapshot.docs.map(doc => {
+      return _objectSpread({
+        id: doc.id
+      }, doc.data());
+    }); // enviar el resultado de la conultaal state
+
+    setPlantas(plantas);
+  }
+
+  return __jsx("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "banner-div",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 11
+    }
+  }, __jsx("img", {
+    src: imgSeccion,
+    alt: "",
+    className: "banner",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
+    className: "bannerText",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 13
+    }
+  }, __jsx("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 15
+    }
+  }, "Plantas ", seccion))), __jsx("div", {
+    id: "fh5co-features",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, __jsx(_UI_buscador__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }), __jsx("div", {
+    className: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 15
+    }
+  }, plantas.map(element => __jsx(_Dinamicos_cardPlanta__WEBPACK_IMPORTED_MODULE_2__["default"] //states
+  , {
+    key: element.id,
+    planta: element,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 19
+    }
+  }))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Seccion);
+
+/***/ }),
 
 /***/ "./components/Layaout/footer.jsx":
 /*!***************************************!*\
@@ -475,14 +737,14 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 25
     }
   }), usuario ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 41
     }
   }, "Hola ", usuario.displayName), __jsx("button", {
@@ -490,25 +752,40 @@ const Header = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 41
     }
-  }, "Cerrar sesi\xF3n")) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, "Cerrar sesi\xF3n")) : __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/login",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67,
-      columnNumber: 37
+      columnNumber: 41
     }
   }, __jsx("button", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
+      columnNumber: 45
+    }
+  }, "Login")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/crear-cuenta",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
       columnNumber: 41
     }
-  }, "Login"))))));
+  }, __jsx("button", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 45
+    }
+  }, "Crear Cuenta")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -2627,10 +2904,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/plantas/[id].jsx":
-/*!********************************!*\
-  !*** ./pages/plantas/[id].jsx ***!
-  \********************************/
+/***/ "./pages/Alimentos.jsx":
+/*!*****************************!*\
+  !*** ./pages/Alimentos.jsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2638,411 +2915,50 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
-/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../firebase */ "./firebase/index.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\plantas\\[id].jsx";
+/* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
+/* harmony import */ var _components_Dinamicos_seccion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Dinamicos/seccion */ "./components/Dinamicos/seccion.jsx");
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\Alimentos.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
- // context
 
- ////Planta desde la base de datos///
 
-const state_ini = {
-  nombre: '',
-  urlImg: '',
-  descripcion: '',
-  masInfo: '',
-  tags: []
-};
-
-const Planta = () => {
-  //Routing para obtener el id actual
-  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_3__["useRouter"])();
-  console.log('router', router);
-  const {
-    query: {
-      id
-    }
-  } = router;
-  console.log('id : ', id); // state
-
-  const {
-    0: planta,
-    1: setPlanta
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(state_ini); // context de firebase
-
-  const {
-    firebase
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_2__["FirebaseContext"]); // usse effect donde buscara en firebase
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    const obtenerPlantas = () => {
-      firebase.db.collection("plantas").doc(id).get().then(doc => {
-        // si doc existe
-        if (doc.exists) {
-          setPlanta(doc.data());
-        } else {
-          console.log("No such document!");
-        }
-      }).catch(function (error) {
-        console.log("Error getting document:", error);
-      });
-    };
-
-    obtenerPlantas();
-  }, []);
+const Alimentos = () => {
+  const img = "static/imgs/albahaca.jpg";
+  const nombreSeccion = 'de Alimentos';
+  const querySeccion = 'Alimento';
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 6
-    }
-  }, __jsx("div", {
-    className: "container",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 10,
       columnNumber: 9
     }
-  }, __jsx("h1", {
+  }, __jsx(_components_Dinamicos_seccion__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    seccion: nombreSeccion,
+    seccionDB: querySeccion,
+    imgSeccion: img,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 9
+      lineNumber: 11,
+      columnNumber: 13
     }
-  }, "Desde ", id), __jsx("div", {
-    className: "row align-items-center",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 12
-    }
-  }, __jsx("div", {
-    className: "col",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 19
-    }
-  }, __jsx("div", {
-    className: "row align-items-center contenido-primero",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 23
-    }
-  }, __jsx("h1", {
-    className: "col eucalipto",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 27
-    }
-  }, __jsx("b", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 57
-    }
-  }, planta.nombre)), __jsx("h4", {
-    className: "col-md-auto huno",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 27
-    }
-  }, __jsx("img", {
-    src: "../static/imgs/passion.svg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 60
-    }
-  })), __jsx("h4", {
-    className: "col col-lg-2 hdos",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 27
-    }
-  }, __jsx("img", {
-    src: "../static/imgs/planta2.svg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 61
-    }
-  }))), __jsx("p", {
-    className: "text-left puno",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 23
-    }
-  }, planta.descripcion)), __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 19
-    }
-  }, __jsx("div", {
-    className: "col contenido-segundo",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 23
-    }
-  }, __jsx("div", {
-    className: "icono",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 27
-    }
-  }, __jsx("img", {
-    src: planta.urlImg,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 31
-    }
-  }))))), __jsx("div", {
-    className: "containerr",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 12
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "col-sm-8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 19
-    }
-  }, __jsx("div", {
-    className: "row contenido-tercero",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 27
-    }
-  }, __jsx("h4", {
-    className: "col-sm htres",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 35
-    }
-  }, __jsx("img", {
-    src: "../static/imgs/agua2.svg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 64
-    }
-  })), __jsx("h4", {
-    className: "col-sm hcuatro",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 35
-    }
-  }, __jsx("img", {
-    src: "../static/imgs/sun2.svg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 66
-    }
-  })), __jsx("h4", {
-    className: "col-sm hcinco",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 35
-    }
-  }, __jsx("img", {
-    src: "../static/imgs/crecimiento (4).svg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 65
-    }
-  })))), __jsx("div", {
-    className: "col-sm-4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 19
-    }
-  }, __jsx("h4", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 23
-    }
-  })))), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 15
-    }
-  }), __jsx("hr", {
-    className: "linea-separa",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 21
-    }
-  }), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 52
-    }
-  }), __jsx("div", {
-    className: "container",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 12
-    }
-  }, __jsx("div", {
-    className: "col align-self-center",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79,
-      columnNumber: 19
-    }
-  }, __jsx("h4", {
-    className: "text-center hseis",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 23
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 57
-    }
-  }, "M\xE1s informaci\xF3n")), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 94
-    }
-  }), __jsx("p", {
-    className: "text-center info2",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 23
-    }
-  }, planta.masInfo)), __jsx("div", {
-    className: "col align-self-center",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 19
-    }
-  }, __jsx("h4", {
-    className: "text-center hseis",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 21
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 55
-    }
-  }, "Tags")), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 81
-    }
-  }), planta.tags.map(tag => __jsx("p", {
-    className: "text-center info2",
-    key: tag,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 26
-    }
-  }, tag))))));
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Planta);
+/* harmony default export */ __webpack_exports__["default"] = (Alimentos);
 
 /***/ }),
 
 /***/ 5:
-/*!**************************************!*\
-  !*** multi ./pages/plantas/[id].jsx ***!
-  \**************************************/
+/*!***********************************!*\
+  !*** multi ./pages/Alimentos.jsx ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\pages\plantas\[id].jsx */"./pages/plantas/[id].jsx");
+module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\pages\Alimentos.jsx */"./pages/Alimentos.jsx");
 
 
 /***/ }),
@@ -3102,17 +3018,6 @@ module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
-
-/***/ }),
-
 /***/ "prop-types":
 /*!*****************************!*\
   !*** external "prop-types" ***!
@@ -3169,4 +3074,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=[id].js.map
+//# sourceMappingURL=Alimentos.js.map

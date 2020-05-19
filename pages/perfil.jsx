@@ -23,7 +23,7 @@ const Perfil = () => {
                 <div className="col-md-4">
                   <div className="icono">  <img src="static/imgs/foto_perfil.png" alt="" /></div>
                   <br />
-                  <h4 className="text-center"><strong>ALEJANDRA GONZALES</strong></h4>
+                  <h4 className="text-center"><strong>{usuario.displayName}</strong></h4>
                   <p className="text-center">¡Amante de las plantas y entusiasta!</p>
                   <Link href="/Nuevo-cultivo" >
                     <button 

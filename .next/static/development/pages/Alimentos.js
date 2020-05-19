@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\Medicinales.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\Alimentos.js"],{
 
 /***/ "./components/Dinamicos/cardPlanta.jsx":
 /*!*********************************************!*\
@@ -652,14 +652,14 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 53,
       columnNumber: 25
     }
   }), usuario ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 41
     }
   }, "Hola ", usuario.displayName), __jsx("button", {
@@ -669,25 +669,40 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 41
     }
-  }, "Cerrar sesi\xF3n")) : __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, "Cerrar sesi\xF3n")) : __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/login",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67,
-      columnNumber: 37
+      columnNumber: 41
     }
   }, __jsx("button", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68,
+      columnNumber: 45
+    }
+  }, "Login")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/crear-cuenta",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
       columnNumber: 41
     }
-  }, "Login"))))));
+  }, __jsx("button", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 45
+    }
+  }, "Crear Cuenta")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -24263,21 +24278,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FMedicinales&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CMedicinales.jsx!./":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FMedicinales&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CMedicinales.jsx ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAlimentos&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CAlimentos.jsx!./":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAlimentos&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CAlimentos.jsx ***!
+  \**************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/Medicinales", function() {
-      var mod = __webpack_require__(/*! ./pages/Medicinales.jsx */ "./pages/Medicinales.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/Alimentos", function() {
+      var mod = __webpack_require__(/*! ./pages/Alimentos.jsx */ "./pages/Alimentos.jsx")
       if(true) {
-        module.hot.accept(/*! ./pages/Medicinales.jsx */ "./pages/Medicinales.jsx", function() {
-          if(!next.router.components["/Medicinales"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/Medicinales.jsx */ "./pages/Medicinales.jsx")
-          next.router.update("/Medicinales", updatedPage)
+        module.hot.accept(/*! ./pages/Alimentos.jsx */ "./pages/Alimentos.jsx", function() {
+          if(!next.router.components["/Alimentos"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/Alimentos.jsx */ "./pages/Alimentos.jsx")
+          next.router.update("/Alimentos", updatedPage)
         })
       }
       return mod
@@ -28867,10 +28882,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./pages/Medicinales.jsx":
-/*!*******************************!*\
-  !*** ./pages/Medicinales.jsx ***!
-  \*******************************/
+/***/ "./pages/Alimentos.jsx":
+/*!*****************************!*\
+  !*** ./pages/Alimentos.jsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -28881,17 +28896,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
 /* harmony import */ var _components_Dinamicos_seccion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Dinamicos/seccion */ "./components/Dinamicos/seccion.jsx");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\Medicinales.jsx";
+    _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\Alimentos.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-var Medicinales = function Medicinales() {
-  var img = "static/imgs/hiperico.jpg";
-  var nombreSeccion = 'Medicinales';
-  var querySeccion = 'Medicinal';
+var Alimentos = function Alimentos() {
+  var img = "static/imgs/albahaca.jpg";
+  var nombreSeccion = 'de Alimentos';
+  var querySeccion = 'Alimento';
   return __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
@@ -28912,18 +28927,18 @@ var Medicinales = function Medicinales() {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Medicinales);
+/* harmony default export */ __webpack_exports__["default"] = (Alimentos);
 
 /***/ }),
 
-/***/ 5:
-/*!**********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FMedicinales&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CMedicinales.jsx ***!
-  \**********************************************************************************************************************************************************/
+/***/ 3:
+/*!******************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2FAlimentos&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CAlimentos.jsx ***!
+  \******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FMedicinales&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CMedicinales.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FMedicinales&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CMedicinales.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FAlimentos&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CAlimentos.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAlimentos&absolutePagePath=C%3A%5CUsers%5CDaniel%20Serrano%5CDocuments%5CGrandi%5Cpages%5CAlimentos.jsx!./");
 
 
 /***/ }),
@@ -28939,5 +28954,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=Medicinales.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=Alimentos.js.map
