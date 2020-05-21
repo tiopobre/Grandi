@@ -2,6 +2,8 @@ import React, { useState, useContext } from 'react';
 import Layaout from '../components/Layaout/layaout'
 import Router from 'next/router'
 import firebase from '../firebase';
+// para añadir imagenes
+var uniqid = require('uniqid');
 //validaciones
 import useValidacion from '../hooks/useValidacion'
 import validarNuevoCultivo from '../validacion/validarNuevoCultivo'
@@ -12,14 +14,46 @@ const STATE_INICIAL = {
     alias: '',
     fechaIni: '',
     descripcion: '',
+    img: '',
+    urlImg:'ll',
+    votos : 0,
 }
 
 const nuevoCultivo = () => {
     const {valores, errores, handleChange, handleSubmit} =  useValidacion(STATE_INICIAL, validarNuevoCultivo, agregarCultivo);
-    const {planta, alias, fechaIni, descripcion } = valores;
+    const {planta, alias, fechaIni,img ,urlImg , descripcion } = valores;
+    // State Imagenes
+    const [imagen, setImagen] = useState(null);
+    const [urlImagen, setUrlImagen] = useState('');
     // context con las crud de firebase
     const {usuario, firebase} = useContext(FirebaseContext);
     
+    // Imagenes
+    
+    function cambioImagen (e){
+        if(e.target.files[0]){
+            setImagen(e.target.files[0]);
+        }
+       // console.log(uniqid.process());
+       //crear id imagen
+        setUrlImagen(uniqid('cultivo'));
+        
+        console.log( 'uniqId' ,uniqid('cultivo'));
+    }
+
+    const handleURL = () =>{
+        firebase.storage
+        .ref("test_imagenes")
+        .child(imagen.name)
+        .getDownloadURL()
+        .then( url =>{
+             console.log(url);
+             setUrlImagen(url);
+        }
+        )
+    }
+
+    // agregar a firestore y storage
     async function agregarCultivo(){
             console.log('agregando cultivo...')
             if(!usuario){
@@ -31,12 +65,14 @@ const nuevoCultivo = () => {
                 alias: {alias},
                 fechaIni: {fechaIni},
                 descripcion: {descripcion},
-                imagen: '',
+                urlImg: {urlImagen},
                 comentarios: [],
                 votos: 0
             }
+            
             //insertar en la base de datos
             firebase.db.collection('cultivos').add(cultivo);
+            firebase.storage.ref('test_imagenes').child(urlImagen).put(imagen);
         }
 
     return ( 
@@ -74,6 +110,16 @@ const nuevoCultivo = () => {
                             className="form-text text-muted"
                             >Dale un alias a tu cultivo.</small>
                         </div>
+
+                        <div className="form-group">
+                            <label >Sube una Imagen</label>
+                            <input 
+                                type = "file"
+                                
+                                onChange ={cambioImagen}
+                            />  
+                        </div>
+
                         <div className="form-group">
                             <label >Fecha Inicial</label>
                             <input 

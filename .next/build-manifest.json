@@ -8,7 +8,7 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Alimentos": [
+    "/Nuevo-cultivo": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
