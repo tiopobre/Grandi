@@ -8,9 +8,9 @@ const cardPlanta = ({planta}) => {
             <div className="feature-left">
               <img className="plant_img" src={cardImg} alt="" />
               <div className="feature-copy">
-                <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                <p>Puedes cultivar estas plantas y obtener sus frutos, raíces y hojas para utilizarlas.</p>
                 <Link href="/plantas/[id]" as={`/plantas/${id}`} >
-                  <p><a href = '#'>Aprende mas
+                  <p><a href = '#'>Aprende más
                     <i className="icon-arrow-right22" />
                   </a></p>
                 </Link>

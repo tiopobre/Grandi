@@ -30,30 +30,32 @@ const crearCuenta = () => {
     return ( 
         <>
             <Layaout>
-                <h2  className="d-flex justify-content-center">Crear Cuenta</h2>
+               <div className="container">
+                   <div className="card card-container login">
+                   <h2  className="d-flex justify-content-center">Crear Cuenta</h2>
                 <div className="d-flex flex-row bd-highligh justify-content-center">
                     <form 
                         onSubmit = {handleSubmit}
                     >
                         <div className="form-group">
-                            <label >Nombre Usurio</label>
+                            <label >Nombre de Usuario</label>
                             <input 
                                 type="text" 
                                 className="form-control" 
                                 name = "nombre"
-                                placeholder="Tù usuario"
+                                placeholder="Usuario"
                                 value ={nombre}
                                 onChange ={handleChange}
                             />
                             {errores.nombre && <p>{errores.nombre}</p>}
                         </div>
                         <div className="form-group">
-                            <label >Email address</label>
+                            <label >Correo electrónico</label>
                             <input 
                                 type="e-mail" 
                                 className="form-control" 
                                 name = "email"
-                                placeholder="Enter email"
+                                placeholder="e-mail"
                                 value ={email}
                                 onChange ={handleChange}
                             />
@@ -61,15 +63,15 @@ const crearCuenta = () => {
                             <small 
                             id="emailHelp" 
                             className="form-text text-muted"
-                            >We'll never share your email with anyone else.</small>
+                            >Nunca compartiremos tu correo electrónico con nadie más.</small>
                         </div>
                         <div className="form-group">
-                            <label >Password</label>
+                            <label >Contraseña</label>
                             <input 
                                 type="password" 
                                 className="form-control" 
                                 name = "password"
-                                placeholder="Clave"
+                                placeholder="Contraseña"
                                 value ={password}
                                 onChange ={handleChange}
                             />
@@ -77,12 +79,14 @@ const crearCuenta = () => {
                         </div>
 
                         <button 
+                            className="btn btn-lg btn-primary btn-block btn-signin" 
                             type="submit" 
                             value= "crear cuenta"
-                            className="btn btn-primary "
                         >Crear</button>
                     </form>
                 </div>
+                   </div>
+               </div>
             </Layaout> 
         </>
      );

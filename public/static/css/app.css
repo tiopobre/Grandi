@@ -15,6 +15,10 @@ body{
 .header .navbar {
     background-color: rgba(0, 0, 0, 0.1) !important;
   }
+
+  .inicia {
+      margin-right: 2rem;
+  }
   
   
   
@@ -71,7 +75,7 @@ body{
           font-size: 7rem;
           text-align: center;
           padding-top:6rem; 
-          color:#3f554d;
+          color: #4B762A;
       }
   
       .texto{
@@ -83,6 +87,11 @@ body{
       input[type="image"] {
           padding-left: 1rem;
           padding-right: 1rem;
+          width: 130px;
+          height: 112px;
+          margin-left: 30px;
+          margin-right: auto;
+          border-radius: 200px;
       }
   
       .iconos{
