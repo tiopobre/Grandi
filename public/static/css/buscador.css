@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+} 
+
+.container {
+    padding-top: 2.1rem;
+    padding-bottom: 2rem;
+    color: #0C6121;
+}
+
+.text-center{
+    padding-bottom: 1rem;
+}

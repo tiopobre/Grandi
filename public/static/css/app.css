@@ -11,15 +11,50 @@ body{
     min-height: 100vh;
   }
 
-  
 .header .navbar {
     background-color: rgba(0, 0, 0, 0.1) !important;
   }
 
   .inicia {
-      margin-right: 2rem;
+      font-family: 'Bai Jamjuree', sans-serif;
+      margin-right: 0.5rem;
+      margin-left: 30rem;
+      background-color: white; 
+      color: black; 
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
   }
-  
+
+  .inicia:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .crea {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: white; 
+    border-radius: 8px;
+  } 
+  .crea:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  .Cerrar {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-right: 0.5rem;
+    margin-left: 22rem;
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(214, 34, 34);
+    border-radius: 8px;
+  }
+
+  .Cerrar:hover {
+    background-color: #d62222;
+    color: white;
+  }
   
   
   /*700px o menos*/

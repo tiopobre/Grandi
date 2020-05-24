@@ -49,32 +49,42 @@ const {usuario,firebase} = useContext(FirebaseContext);
                                     </>
                                 )                        
                             }
-                        </ul>
-                        <Buscador/>
+                        
                         {usuario 
                             ? 
                                 (
                                     <>
-                                        <p>Hola {usuario.displayName}</p>
-                                        <button
-                                            onClick = {() => firebase.cerrarSesion()}
-                                        >Cerrar sesión</button>
+                                        <li className="nav-item">
+                                        <p className="nav-link" >HOLA{usuario.displayName}</p>
+                                        </li>
+                                        
+                                        <li>
+                                            <button  className="Cerrar nav-link"
+                                                onClick = {() => firebase.cerrarSesion()}
+                                            >Cerrar sesión</button>
+                                        </li>
+                                        
                                     </>
                                 )
                             :
                                 (   
                                     <>
-                                        <Link href="/login" >
-                                            <button>Login</button>
-                                        </Link>
+                                        <li className="nav-item">
+                                            <Link href="/login" >
+                                                <button className="inicia nav-link">Login</button>
+                                            </Link>
+                                        </li>
 
-                                        <Link href="/crear-cuenta" >
-                                            <button>Crear Cuenta</button>
-                                        </Link>
+                                        <li className="nav-item">
+                                            <Link href="/crear-cuenta" >
+                                                <button className="crea nav-link" >Crear Cuenta</button>
+                                            </Link>
+                                        </li>
                                     </>
                                     
                                 )                              
                         }
+                      </ul>
                     </div>       
                 </nav>
             </header>

@@ -16,6 +16,7 @@ const layaout = (props) => {
                 <link href="/static/css/seccion.css" rel="stylesheet" />
                 <link href="/static/css/login.css" rel="stylesheet" />
                 <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+                <link href="/static/css/buscador.css" rel="stylesheet" />
             </Head>
 
 

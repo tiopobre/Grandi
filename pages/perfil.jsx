@@ -48,7 +48,7 @@ const Perfil = () => {
                           <h4 className="text-left"><strong>SAUCO</strong></h4>
                           <br />
 
-                          <p className="text-left">El sauco es una plancta medicinal y es considerada como un botiquín con el que se preparan diversos remedios naturales.</p>
+                          <p className="text-left">El sauco es una planta medicinal y es considerada como un botiquín con el que se preparan diversos remedios naturales.</p>
                         </div>
                       </div>
                     </div>
