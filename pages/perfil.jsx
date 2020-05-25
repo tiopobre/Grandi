@@ -1,16 +1,44 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import Layaout from '../components/Layaout/layaout'
+import CardCultivo from '../components/Dinamicos/cardCultivo'
+
 import dynamic from "next/dynamic";
 import Router ,{useRouter} from 'next/router'
 const LoginPage = dynamic(() => import("./login"));
 import Link from 'next/link'
 import {FirebaseContext} from '../firebase' // context
+import cardPlanta from '../components/Dinamicos/cardPlanta';
 
 const Perfil = () => {
   // Context de firebase
   const {usuario,firebase} = useContext(FirebaseContext);
   // enrutador
   const router = useRouter();
+  //State
+  const [cultivos, setCultivos] = useState([]);
+  // query de cultivos
+  useEffect(() => {
+    if(usuario){
+      console.log("entra para query", usuario.uid);
+      const obtenerCultivos = () =>{
+        firebase.db.collection('cultivos').where('creador.id', '==', usuario.uid).onSnapshot(manejarSnapShot)
+      }
+      obtenerCultivos();
+    }
+    
+  }, [usuario]);
+  // snapshot
+  function manejarSnapShot (snapshot){
+    const cultivos = snapshot.docs.map(doc => {
+      return {
+        id: doc.id,
+        ...doc.data(),
+      };
+    });
+    // enviar el resultado de la conultaal state
+    setCultivos(cultivos);
+    console.log("CULTIVOS : ", cultivos);
+  }
   if (usuario){
     return (
       <>
@@ -37,35 +65,13 @@ const Perfil = () => {
                   <h4><strong>TUS CULTIVOS</strong></h4>
                   <br />
                   <div id="interior" className="row">
-                    <div className="col-md-12">
-                      {/* Interior lista */} 
-                      <div className="row">
-                        <div className="col-md-4">
-
-                         <div className="icono">  <Link href="/Desc_Planta"><img src="static/imgs/sauco.png" alt=""/></Link></div>
-                        </div>
-                        <div className="col-md-8">
-                          <h4 className="text-left"><strong>SAUCO</strong></h4>
-                          <br />
-
-                          <p className="text-left">El sauco es una planta medicinal y es considerada como un botiquín con el que se preparan diversos remedios naturales.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="separador"><p>.</p></div>
-                    <div className="col-md-12">
-                      {/* Interior lista */} 
-                      <div className="row">
-                        <div className="col-md-4">
-                          <div className="icono">  <img src="static/imgs/zanahoria.png" alt="" /></div>
-                        </div>
-                        <div className="col-md-8">
-                          <h4 className="text-left"><strong>ZANAHORIA</strong></h4><br />
-                          <p className="text-left">Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor.</p>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Interior lista */} 
+                    {cultivos.map(element =>(
+                      <CardCultivo
+                        //states
+                        key = {element.id}
+                        cultivo = {element}
+                      />
+                    ))}
                   </div>
                 </div>
               </div>

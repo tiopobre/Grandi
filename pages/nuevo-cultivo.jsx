@@ -20,6 +20,7 @@ const STATE_INICIAL = {
 }
 
 const nuevoCultivo = () => {
+    
     const {valores, errores, handleChange, handleSubmit} =  useValidacion(STATE_INICIAL, validarNuevoCultivo, agregarCultivo);
     const {planta, alias, fechaIni,img ,urlImg , descripcion } = valores;
     // State Imagenes
@@ -59,20 +60,26 @@ const nuevoCultivo = () => {
             if(!usuario){
                 return Router.push('/login');
             }
+            console.log("Usuario", usuario.id)
             // Crear cultivo
             const cultivo = {
-                planta: {planta},
-                alias: {alias},
-                fechaIni: {fechaIni},
-                descripcion: {descripcion},
-                urlImg: {urlImagen},
+                planta: planta,
+                alias: alias,
+                fechaIni: fechaIni,
+                descripcion: descripcion,
+                urlImg: urlImagen,
                 comentarios: [],
-                votos: 0
+                votos: 0,
+                creador: {
+                    id : usuario.uid,
+                    nombre: usuario.displayName
+                }
             }
             
             //insertar en la base de datos
             firebase.db.collection('cultivos').add(cultivo);
             firebase.storage.ref('test_imagenes').child(urlImagen).put(imagen);
+            return Router.push('/perfil');
         }
 
     return ( 

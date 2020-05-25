@@ -15,12 +15,6 @@
       "publicPath": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
       "id": "./pages/login.jsx",
       "name": "./pages/login.jsx",
       "file": "static/chunks/1.js",
