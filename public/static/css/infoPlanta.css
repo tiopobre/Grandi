@@ -1,0 +1,182 @@
+.puno, .pdos, .info2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4B5D68;
+}
+
+.hunoo{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #4B762A;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hdos, .htres, .hcuatro , .hcinco, .hseis {
+    color: #4B762A;
+    font-family: 'Bai Jamjuree', sans-serif;
+    }
+
+.planta {
+    color: #4B762A;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: bold;
+    }
+
+html {
+    
+    scroll-behavior: smooth;
+}
+
+.social-iconos li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.iconos-primero img{
+    width: 80px;
+    height: 101px;
+    left: 598px;
+    top: 220px;
+}
+
+
+.corazon {
+    width: 80px;
+    height: 101px;
+    left: 598px;
+    top: 220px;
+}
+
+#contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containerr {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.row{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+
+.introduction{
+    width: 90%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    background-image: url(../imgs/fondo_perfil.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.introductiondos{
+    width: 80%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.info p{
+    text-align: justify;
+}
+
+.col-md-12
+{
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 200px;
+    background-image: url(../imgs/lista.png);
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    
+}
+
+
+
+.contenido-segundo img{
+    width: 200px;
+    height: 201px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 0px;
+}
+
+.contenido-segundos img{
+    width: 270px;
+    height: 301px;
+    margin-left: 30px;
+    margin-right: auto;
+    border-radius: 200px;
+}
+
+.contenido-primero img{
+    width: 50px;
+    height: 101px;
+    left: 598px;
+    top: 220px;
+}
+
+.contenido-tercero img{
+    width: 80px;
+    height: 101px;
+    left: 598px;
+    top: 220px;
+}
+
+.contenido-primeros img{
+    width: 80px;
+    height: 101px;
+    left: 598px;
+    top: 220px;
+}
+
+.contenido-primeros{
+    margin-right: 50px;
+}
+
+.separador{
+    height: 100px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.linea-separada{
+    border: 1px solid rgba(96, 158, 59, 0.53);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

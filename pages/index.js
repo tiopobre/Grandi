@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layaout from '../components/Layaout/layaout'
 import Footer from '../components/Layaout/footer';
 
-const HomePage = () => {
+const infoPlanta = () => {
     return (
     <Layaout>
         <div className="contenido">
@@ -22,4 +22,4 @@ const HomePage = () => {
     )
   }
   
-  export default HomePage
+  export default infoPlanta
