@@ -3,12 +3,6 @@ module.exports =
 /******/ 	// The module cache
 /******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
-/******/ 	// object to store loaded chunks
-/******/ 	// "0" means "already loaded"
-/******/ 	var installedChunks = {
-/******/ 		"static\\development\\pages\\perfil.js": 0
-/******/ 	};
-/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/
@@ -39,26 +33,6 @@ module.exports =
 /******/ 		return module.exports;
 /******/ 	}
 /******/
-/******/ 	// This file contains only the entry chunk.
-/******/ 	// The chunk loading function for additional chunks
-/******/ 	__webpack_require__.e = function requireEnsure(chunkId) {
-/******/ 		var promises = [];
-/******/
-/******/
-/******/ 		// require() chunk loading for javascript
-/******/
-/******/ 		// "0" is the signal for "already loaded"
-/******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("../../../" + ({}[chunkId]||chunkId) + ".js");
-/******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
-/******/ 			for(var moduleId in moreModules) {
-/******/ 				modules[moduleId] = moreModules[moduleId];
-/******/ 			}
-/******/ 			for(var i = 0; i < chunkIds.length; i++)
-/******/ 				installedChunks[chunkIds[i]] = 0;
-/******/ 		}
-/******/ 		return Promise.all(promises);
-/******/ 	};
 /******/
 /******/ 	// expose the modules object (__webpack_modules__)
 /******/ 	__webpack_require__.m = modules;
@@ -112,317 +86,12 @@ module.exports =
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
-/******/ 	// uncaught error handler for webpack runtime
-/******/ 	__webpack_require__.oe = function(err) {
-/******/ 		process.nextTick(function() {
-/******/ 			throw err; // catch this error by using import().catch()
-/******/ 		});
-/******/ 	};
-/******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/Dinamicos/cardCultivo.jsx":
-/*!**********************************************!*\
-  !*** ./components/Dinamicos/cardCultivo.jsx ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Dinamicos\\cardCultivo.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const cardCultivo = ({
-  cultivo
-}) => {
-  const {
-    alias,
-    planta,
-    urlImg,
-    votos,
-    comentarios,
-    creador
-  } = cultivo;
-  console.log("Comentarios", comentarios);
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    className: "col-md-12",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "col-md-4",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "icono",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 17
-    }
-  }, "  ", __jsx("img", {
-    src: "static/imgs/sauco.png",
-    alt: "",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 42
-    }
-  }))), __jsx("div", {
-    className: "col-md-8",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 15
-    }
-  }, __jsx("h4", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 17
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 43
-    }
-  }, alias)), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 72
-    }
-  }), __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 43
-    }
-  }, planta)), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 73
-    }
-  }), __jsx("p", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 17
-    }
-  }, "Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor."))), __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 17
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 21
-    }
-  }, "Votos ", votos)), __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 21
-    }
-  }, "comentarios ", comentarios.length))), __jsx("div", {
-    className: "separador",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 11
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 38
-    }
-  }, ".")));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (cardCultivo);
-
-__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null);
-
-/***/ }),
-
-/***/ "./components/Dinamicos/cardPlanta.jsx":
-/*!*********************************************!*\
-  !*** ./components/Dinamicos/cardPlanta.jsx ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Dinamicos\\cardPlanta.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-const cardPlanta = ({
-  planta
-}) => {
-  const {
-    id,
-    nombre,
-    cardImg
-  } = planta;
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    className: "col-md-4 animate-box",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 11
-    }
-  }, __jsx("div", {
-    className: "feature-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    className: "plant_img",
-    src: cardImg,
-    alt: "",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 15
-    }
-  }), __jsx("div", {
-    className: "feature-copy",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 15
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 17
-    }
-  }, "Puedes cultivar estas plantas y obtener sus frutos, ra\xEDces y hojas para utilizarlas."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/plantas/[id]",
-    as: `/plantas/${id}`,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 17
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 22
-    }
-  }, "Aprende m\xE1s", __jsx("i", {
-    className: "icon-arrow-right22",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 21
-    }
-  })))), __jsx("h3", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 17
-    }
-  }, nombre)))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (cardPlanta);
-
-__jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null);
-
-/***/ }),
 
 /***/ "./components/Layaout/footer.jsx":
 /*!***************************************!*\
@@ -1348,6 +1017,79 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (_firebase__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
+/***/ "./hooks/useValidacion.jsx":
+/*!*********************************!*\
+  !*** ./hooks/useValidacion.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+const useValidacion = (stateInicial, validar, fn) => {
+  const {
+    0: valores,
+    1: setValores
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(stateInicial);
+  const {
+    0: errores,
+    1: setErrores
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({});
+  const {
+    0: submitForm,
+    1: setSubmitForm
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false); // Funcion que escucha 
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    if (submitForm) {
+      const noErrores = Object.keys(errores).length === 0;
+
+      if (noErrores) {
+        fn(); //Funcion que se ejecuta en el componente dependiendo del formulario
+      }
+
+      setSubmitForm(false);
+    }
+  }, [errores]); // Funcion que se ejecuta cuando el usuraio escribe
+
+  const handleChange = e => {
+    //console.log('state', valores)
+    setValores(_objectSpread({}, valores, {
+      [e.target.name]: e.target.value
+    }));
+  }; // Funcion que se ejecutara con el submit
+
+
+  const handleSubmit = e => {
+    console.log('submit');
+    e.preventDefault();
+    const erroresValidacion = validar(valores);
+    setErrores(erroresValidacion);
+    setSubmitForm(true);
+  };
+
+  return {
+    valores,
+    errores,
+    handleChange,
+    handleSubmit
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (useValidacion);
 
 /***/ }),
 
@@ -3026,10 +2768,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/perfil.jsx":
-/*!**************************!*\
-  !*** ./pages/perfil.jsx ***!
-  \**************************/
+/***/ "./pages/Nuevo-cultivo.jsx":
+/*!*********************************!*\
+  !*** ./pages/Nuevo-cultivo.jsx ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3038,256 +2780,351 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layaout/layaout */ "./components/Layaout/layaout.jsx");
-/* harmony import */ var _components_Dinamicos_cardCultivo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Dinamicos/cardCultivo */ "./components/Dinamicos/cardCultivo.jsx");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
-/* harmony import */ var _components_Dinamicos_cardPlanta__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Dinamicos/cardPlanta */ "./components/Dinamicos/cardPlanta.jsx");
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\perfil.jsx";
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
+/* harmony import */ var _hooks_useValidacion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/useValidacion */ "./hooks/useValidacion.jsx");
+/* harmony import */ var _validacion_validarNuevoCultivo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../validacion/validarNuevoCultivo */ "./validacion/validarNuevoCultivo.jsx");
+var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\Nuevo-cultivo.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
+ // para añadir imagenes
+
+var uniqid = __webpack_require__(/*! uniqid */ "uniqid"); //validaciones
 
 
 
-
-const LoginPage = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(() => __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./login */ "./pages/login.jsx")), {
-  loadableGenerated: {
-    webpack: () => [/*require.resolve*/(/*! ./login */ "./pages/login.jsx")],
-    modules: ["./login"]
-  }
-});
 
  // context
+// State Inicial
 
+const STATE_INICIAL = {
+  planta: '',
+  alias: '',
+  fechaIni: '',
+  descripcion: '',
+  img: '',
+  urlImg: 'll',
+  votos: 0
+};
 
+const nuevoCultivo = () => {
+  const {
+    valores,
+    errores,
+    handleChange,
+    handleSubmit
+  } = Object(_hooks_useValidacion__WEBPACK_IMPORTED_MODULE_4__["default"])(STATE_INICIAL, _validacion_validarNuevoCultivo__WEBPACK_IMPORTED_MODULE_5__["default"], agregarCultivo);
+  const {
+    planta,
+    alias,
+    fechaIni,
+    img,
+    urlImg,
+    descripcion
+  } = valores; // State Imagenes
 
-const Perfil = () => {
-  // Context de firebase
+  const {
+    0: imagen,
+    1: setImagen
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null);
+  const {
+    0: urlImagen,
+    1: setUrlImagen
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''); // context con las crud de firebase
+
   const {
     usuario,
     firebase
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_6__["FirebaseContext"]); // enrutador
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_firebase__WEBPACK_IMPORTED_MODULE_3__["FirebaseContext"]); // Imagenes
 
-  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_4__["useRouter"])(); //State
+  function cambioImagen(e) {
+    if (e.target.files[0]) {
+      setImagen(e.target.files[0]);
+    } // console.log(uniqid.process());
+    //crear id imagen
 
-  const {
-    0: cultivos,
-    1: setCultivos
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]); // query de cultivos
 
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    if (usuario) {
-      console.log("entra para query", usuario.uid);
-
-      const obtenerCultivos = () => {
-        firebase.db.collection('cultivos').where('creador.id', '==', usuario.uid).onSnapshot(manejarSnapShot);
-      };
-
-      obtenerCultivos();
-    }
-  }, [usuario]); // snapshot
-
-  function manejarSnapShot(snapshot) {
-    const cultivos = snapshot.docs.map(doc => {
-      return _objectSpread({
-        id: doc.id
-      }, doc.data());
-    }); // enviar el resultado de la conultaal state
-
-    setCultivos(cultivos);
-    console.log("CULTIVOS : ", cultivos);
+    setUrlImagen(uniqid('cultivo'));
+    console.log('uniqId', uniqid('cultivo'));
   }
 
-  if (usuario) {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45,
-        columnNumber: 9
-      }
-    }, usuario && __jsx("div", {
-      id: "contenedor",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48,
-        columnNumber: 15
-      }
-    }, __jsx("div", {
-      className: "introduction",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49,
-        columnNumber: 13
-      }
-    }, __jsx("div", {
-      className: "row",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 15
-      }
-    }, __jsx("div", {
-      className: "col-md-4",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 17
-      }
-    }, __jsx("div", {
-      className: "icono",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 19
-      }
-    }, "  ", __jsx("img", {
-      src: "static/imgs/foto_perfil.png",
-      alt: "",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 44
-      }
-    })), __jsx("br", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 19
-      }
-    }), __jsx("h4", {
-      className: "text-center",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 19
-      }
-    }, __jsx("strong", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 47
-      }
-    }, usuario.displayName)), __jsx("p", {
-      className: "text-center",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 19
-      }
-    }, "\xA1Amante de las plantas y entusiasta!"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      href: "/Nuevo-cultivo",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 19
-      }
-    }, __jsx("button", {
-      type: "button",
-      value: "nuevo-cultivo",
-      className: "btn btn-primary ",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 57,
-        columnNumber: 21
-      }
-    }, "Agrergar Cultivo"))), __jsx("div", {
-      className: "col-md-8",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 64,
-        columnNumber: 17
-      }
-    }, __jsx("h4", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 19
-      }
-    }, __jsx("strong", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 23
-      }
-    }, "TUS CULTIVOS")), __jsx("br", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 66,
-        columnNumber: 19
-      }
-    }), __jsx("div", {
-      id: "interior",
-      className: "row",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 67,
-        columnNumber: 19
-      }
-    }, cultivos.map(element => __jsx(_components_Dinamicos_cardCultivo__WEBPACK_IMPORTED_MODULE_2__["default"] //states
-    , {
-      key: element.id,
-      cultivo: element,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 69,
-        columnNumber: 23
-      }
-    })))))))));
-  } else {
-    //return router.push('/login');  // enrutador 
-    return __jsx(LoginPage, {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 89,
-        columnNumber: 13
-      }
+  const handleURL = () => {
+    firebase.storage.ref("test_imagenes").child(imagen.name).getDownloadURL().then(url => {
+      console.log(url);
+      setUrlImagen(url);
     });
+  }; // agregar a firestore y storage
+
+
+  async function agregarCultivo() {
+    console.log('agregando cultivo...');
+
+    if (!usuario) {
+      return next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push('/login');
+    }
+
+    console.log("Usuario", usuario.id); // Crear cultivo
+
+    const cultivo = {
+      planta: planta,
+      alias: alias,
+      fechaIni: fechaIni,
+      descripcion: descripcion,
+      urlImg: urlImagen,
+      comentarios: [],
+      votos: 0,
+      creador: {
+        id: usuario.uid,
+        nombre: usuario.displayName
+      }
+    }; //insertar en la base de datos
+
+    firebase.db.collection('cultivos').add(cultivo);
+    firebase.storage.ref('test_imagenes').child(urlImagen).put(imagen);
+    return next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push('/perfil');
   }
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layaout_layaout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 13
+    }
+  }, __jsx("h2", {
+    className: "d-flex justify-content-center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 17
+    }
+  }, "Nueo Cultivo"), __jsx("div", {
+    className: "d-flex flex-row bd-highligh justify-content-center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 17
+    }
+  }, __jsx("form", {
+    onSubmit: handleSubmit,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "form-group",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 23
+    }
+  }, __jsx("label", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 29
+    }
+  }, "Planta"), __jsx("input", {
+    type: "text",
+    className: "form-control",
+    name: "planta",
+    placeholder: "Tipo de planta",
+    value: planta,
+    onChange: handleChange,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 29
+    }
+  }), errores.planta && __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103,
+      columnNumber: 48
+    }
+  }, errores.planta)), __jsx("div", {
+    className: "form-group",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105,
+      columnNumber: 25
+    }
+  }, __jsx("label", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106,
+      columnNumber: 29
+    }
+  }, "Alias"), __jsx("input", {
+    type: "text",
+    className: "form-control",
+    name: "alias",
+    placeholder: "alias de tu planta",
+    value: alias,
+    onChange: handleChange,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107,
+      columnNumber: 29
+    }
+  }), __jsx("small", {
+    className: "form-text text-muted",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115,
+      columnNumber: 29
+    }
+  }, "Dale un alias a tu cultivo.")), __jsx("div", {
+    className: "form-group",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121,
+      columnNumber: 25
+    }
+  }, __jsx("label", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122,
+      columnNumber: 29
+    }
+  }, "Sube una Imagen"), __jsx("input", {
+    type: "file",
+    onChange: cambioImagen,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123,
+      columnNumber: 29
+    }
+  })), __jsx("div", {
+    className: "form-group",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130,
+      columnNumber: 25
+    }
+  }, __jsx("label", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 131,
+      columnNumber: 29
+    }
+  }, "Fecha Inicial"), __jsx("input", {
+    type: "date",
+    className: "form-control",
+    name: "fechaIni",
+    value: fechaIni,
+    onChange: handleChange,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132,
+      columnNumber: 29
+    }
+  }), errores.fechaIni && __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139,
+      columnNumber: 50
+    }
+  }, errores.fechaIni)), __jsx("div", {
+    className: "form-group",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141,
+      columnNumber: 25
+    }
+  }, __jsx("label", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142,
+      columnNumber: 29
+    }
+  }, "Descripcion Cultivo"), __jsx("input", {
+    className: "form-control",
+    name: "descripcion",
+    value: descripcion,
+    onChange: handleChange,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 143,
+      columnNumber: 29
+    }
+  })), __jsx("button", {
+    type: "submit",
+    value: "crear cultivo",
+    className: "btn btn-lg btn-primary btn-block btn-signin",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150,
+      columnNumber: 25
+    }
+  }, "Agregar Cultivo")))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Perfil);
+/* harmony default export */ __webpack_exports__["default"] = (nuevoCultivo);
 
 /***/ }),
 
-/***/ 4:
-/*!********************************!*\
-  !*** multi ./pages/perfil.jsx ***!
-  \********************************/
+/***/ "./validacion/validarNuevoCultivo.jsx":
+/*!********************************************!*\
+  !*** ./validacion/validarNuevoCultivo.jsx ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return validarNuevoCultivo; });
+function validarNuevoCultivo(valores) {
+  let errores = {}; // validar Planta
+
+  if (!valores.planta) {
+    errores.planta = "La planta es obligtorio";
+  } // validar la fecha inicial
+
+
+  if (!valores.fechaIni) {
+    errores.fechaIni = "La fecha es obligatoria";
+  }
+
+  return errores;
+}
+
+/***/ }),
+
+/***/ 3:
+/*!***************************************!*\
+  !*** multi ./pages/Nuevo-cultivo.jsx ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\pages\perfil.jsx */"./pages/perfil.jsx");
+module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\pages\Nuevo-cultivo.jsx */"./pages/Nuevo-cultivo.jsx");
 
 
 /***/ }),
@@ -3333,17 +3170,6 @@ module.exports = require("firebase/firestore");
 /***/ (function(module, exports) {
 
 module.exports = require("firebase/storage");
-
-/***/ }),
-
-/***/ "next/dynamic":
-/*!*******************************!*\
-  !*** external "next/dynamic" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/dynamic");
 
 /***/ }),
 
@@ -3413,6 +3239,17 @@ module.exports = require("react-is");
 
 /***/ }),
 
+/***/ "uniqid":
+/*!*************************!*\
+  !*** external "uniqid" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("uniqid");
+
+/***/ }),
+
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -3425,4 +3262,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=perfil.js.map
+//# sourceMappingURL=Nuevo-cultivo.js.map
