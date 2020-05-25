@@ -9,7 +9,7 @@ const Seccion = ({seccion, seccionDB, imgSeccion}) => {
   const {firebase} = useContext(FirebaseContext);
   useEffect(() => {
     const obtenerPlantas = () =>{
-        firebase.db.collection('plantas').where("Medicinal", '==', true).onSnapshot(manejarSnapShot);
+        firebase.db.collection('plantas').where(seccionDB, '==', true).onSnapshot(manejarSnapShot);
     }
      obtenerPlantas();
   }, []);

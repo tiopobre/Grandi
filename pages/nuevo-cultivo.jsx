@@ -85,7 +85,8 @@ const nuevoCultivo = () => {
     return ( 
         <>
             <Layaout>
-                <h2  className="d-flex justify-content-center">Nueo Cultivo</h2>
+                <div className="contenedor">
+                <h2  className="d-flex justify-content-center">Nuevo Cultivo</h2>
                 <div className="d-flex flex-row bd-highligh justify-content-center">
                     <form 
                         onSubmit = {handleSubmit}
@@ -153,6 +154,7 @@ const nuevoCultivo = () => {
                             className="btn btn-lg btn-primary btn-block btn-signin"
                         >Agregar Cultivo</button>  
                     </form> 
+                </div>
                 </div>
             </Layaout> 
         </>

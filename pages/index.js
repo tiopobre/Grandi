@@ -12,9 +12,9 @@ const infoPlanta = () => {
                     <p><strong>Grandi</strong></p>
                 </div>
                 <div className="iconos">
-                <Link href = "/Alimentos"><input type="image" src="static/imgs/ico1.png" alt="icono1" /></Link>
-                <Link href = "/Medicinales"  ><input type="image" src="static/imgs/ico2.png" alt="icono2" /></Link>
-                <Link href = "/Decorativas"><input type="image" src="static/imgs/ico3.png" alt="icono3" /></Link>               
+                <Link href = "/alimentos"><input type="image" src="static/imgs/ico1.png" alt="icono1" /></Link>
+                <Link href = "/medicinales"  ><input type="image" src="static/imgs/ico2.png" alt="icono2" /></Link>
+                <Link href = "/decorativas"><input type="image" src="static/imgs/ico3.png" alt="icono3" /></Link>               
                 </div>
             </div>
     </Layaout>

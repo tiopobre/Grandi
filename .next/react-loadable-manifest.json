@@ -6,25 +6,5 @@
       "file": "static/chunks/0.js",
       "publicPath": "static/chunks/0.js"
     }
-  ],
-  "./login": [
-    {
-      "id": "./hooks/useValidacion.jsx",
-      "name": "./hooks/useValidacion.jsx",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./pages/login.jsx",
-      "name": "./pages/login.jsx",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./validacion/validarLogin.jsx",
-      "name": "./validacion/validarLogin.jsx",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    }
   ]
 }

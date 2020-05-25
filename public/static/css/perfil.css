@@ -82,6 +82,15 @@ html {
     border-width: 0.05rem;
     background-color: rgba(214, 221, 196, 0.534);
 }
+
+.cultibuto p{
+    width: 158px;
+    height: 30px;
+	border-radius: 50px;
+	border-style: solid;
+    border-width: 0.05rem;
+    background-color: rgba(214, 221, 196, 0.534);
+}
 #contenedor {
     margin-left: auto;
     margin-right: auto;

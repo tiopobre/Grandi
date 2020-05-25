@@ -57,7 +57,7 @@ const Perfil = () => {
                <h4 className="col-md-auto planta"><strong>{usuario.displayName}</strong></h4>
              </div>
              <div className="row justify-content-md-center agrega">
-             <Link className="col-md-auto" href="/agregaNuevo-cultivo" >
+             <Link className="col-md-auto" href="/nuevo-cultivo" >
                     <button 
                       type="button" 
                       value= "nuevo-cultivo"

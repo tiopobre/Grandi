@@ -1,11 +1,11 @@
 .footer {
-		background-color: rgba(231, 230, 230, 0.705);
-		padding-bottom: 20px;
-		padding-top: 20px;
-		color: white;
-		line-height: .3;
-		text-align: center;
-		font-size: 14px;
-		width: 100%;
-		height: auto;
-	}
+	background-color: rgba(184, 199, 159, 0.705);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #4B762A;
+	line-height: .3;
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	height: auto;
+}
