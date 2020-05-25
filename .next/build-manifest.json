@@ -8,10 +8,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Nuevo-cultivo": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -24,7 +20,7 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/crear-cuenta": [
+    "/infoPlanta": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

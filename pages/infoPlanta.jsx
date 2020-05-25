@@ -26,7 +26,7 @@ const infoPlanta = () => {
                       </div>        
                   </div>
                   <div>
-                      <div className="col contenido-segundo">
+                      <div className="col contenido-segundor">
                           <div className="icono"> 
                              <img src="static/imgs/soja.png" alt=""/>
                           </div>
@@ -38,7 +38,7 @@ const infoPlanta = () => {
            
               <div className="row align-items-center">
                   <div>
-                      <div className="col contenido-segundo">
+                      <div className="col contenido-segundor">
                           <div className="icono"> 
                           <img src="static/imgs/regadera.png" alt=""/>
                           </div>
@@ -62,7 +62,7 @@ const infoPlanta = () => {
                       </div>        
                   </div>
                   <div>
-                      <div className="col contenido-segundo">
+                      <div className="col contenido-segundor">
                           <div className="icono"> 
                           <img src="static/imgs/dom.png" alt=""/>
                           </div>

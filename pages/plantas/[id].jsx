@@ -42,7 +42,6 @@ const Planta = () => {
     return (
      <Layaout>
         <div className="container">
-        <h1>Desde {id}</h1>
            <div className="row align-items-center">
                   <div className="col">
                       <div className="row align-items-center contenido-primero">

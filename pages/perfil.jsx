@@ -45,37 +45,41 @@ const Perfil = () => {
         <Layaout>
           {usuario && 
             (
-              <div id="contenedor">{/* Contenedor principal */}
-            <div className="introduction">
-              <div className="row">
-                <div className="col-md-4">
-                  <div className="icono">  <img src="static/imgs/foto_perfil.png" alt="" /></div>
-                  <br />
-                  <h4 className="text-center"><strong>{usuario.displayName}</strong></h4>
-                  <p className="text-center">¡Amante de las plantas y entusiasta!</p>
-                  <Link href="/Nuevo-cultivo" >
+   <div className="container">
+              <div className="row justify-content-md-center">
+                   <div className="col-md-auto usuario">
+                       <div className="icono"> 
+                           <img src="static/imgs/usuario.png" alt=""/>
+                       </div>
+                   </div>
+             </div>
+             <div className="row justify-content-md-center">
+               <h4 className="col-md-auto planta"><strong>{usuario.displayName}</strong></h4>
+             </div>
+             <div className="row justify-content-md-center agrega">
+             <Link className="col-md-auto" href="/agregaNuevo-cultivo" >
                     <button 
                       type="button" 
                       value= "nuevo-cultivo"
                       className="btn btn-primary "
-                    >Agrergar Cultivo</button>
-                  </Link>
-                </div>
-                <div className="col-md-8">
-                  <h4><strong>TUS CULTIVOS</strong></h4>
-                  <br />
-                  <div id="interior" className="row">
+                    >Agregar Cultivo</button>
+               </Link>
+             </div>
+          
+           <br /><hr className="linea-separada" /><br />
+         
+            <div class="row justify-content-md-center">
+                 <h1 className="col-md-auto planta"><b>Tus Cultivos</b></h1>
+            </div>
+            <div id="interior" className="row">
                     {cultivos.map(element =>(
-                      <CardCultivo
-                        //states
+                      <CardCultivo //states
                         key = {element.id}
                         cultivo = {element}
                       />
                     ))}
                   </div>
-                </div>
-              </div>
-            </div>
+        
           </div>
             )
             

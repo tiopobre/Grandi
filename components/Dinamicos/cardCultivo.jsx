@@ -5,25 +5,35 @@ const cardCultivo = ({cultivo}) => {
   console.log("Comentarios",comentarios)
     return ( 
         <>
-        <div className="col-md-12">
-            <div className="row">
-              <div className="col-md-4">
-                <div className="icono">  <img src= "static/imgs/sauco.png" alt="" /></div>
-              </div>
-              <div className="col-md-8">
-                <h4 className="text-left"><strong>{alias}</strong></h4><br />
-                <h5 className="text-left"><strong>{planta}</strong></h5><br />
-                <p className="text-left">Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor.</p>
-              </div>
-            </div>
-                <div>
-                    <p>Votos {votos}</p>
-                </div>
-                <div>
-                    <p>comentarios {comentarios.length}</p>
-                </div>
-          </div>
-          <div className="separador"><p>.</p></div>
+          <div className="container cultivo">
+           <div className="row align-items-center">
+                    <div>
+                      <div className="col contenidoo-segundo">
+                          <div className="icono"> 
+                             <img src="static/imgs/cultivar.png" alt=""/>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col">
+                      <div className="row">
+                         <h4 className="col text-left"><b>{alias}</b>       <b>({planta})</b></h4>
+                      </div>   
+                       <p className="text-left puno">Descripción de tú cultivo</p>  
+                       <p className="text-left puno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dignissimos consequuntur cumque eaque incidunt? Ipsa cum repellat, quisquam ratione possimus voluptates. Aspernatur natus ducimus voluptatum ullam reprehenderit iste vitae minima!</p>   
+                      <div className="row cultibut">
+                        <div className="col ">
+                          <p>Votos {votos}</p>
+                        </div>
+                        <div className="col ">
+                          <p>Comentarios {comentarios.length}</p>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                      </div>
+                  </div>
+                                   
+             </div>
+           </div>
         </>
      );
 }

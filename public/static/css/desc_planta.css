@@ -127,6 +127,8 @@
         margin-left: 30px;
     	margin-right: auto;
 		border-radius: 200px;
+		border-style: solid;
+		border-width: 0.3rem;
     }
 
     .contenido-segundos img{

@@ -91,7 +91,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
 /* harmony import */ var _hooks_useValidacion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/useValidacion */ "./hooks/useValidacion.jsx");
 /* harmony import */ var _validacion_validarLogin__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../validacion/validarLogin */ "./validacion/validarLogin.jsx");
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\login.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\login.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 

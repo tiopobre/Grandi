@@ -139,7 +139,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Dinamicos\\cardCultivo.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Dinamicos\\cardCultivo.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -157,150 +157,162 @@ const cardCultivo = ({
   } = cultivo;
   console.log("Comentarios", comentarios);
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    className: "col-md-12",
+    className: "container cultivo",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 9
+      columnNumber: 11
     }
   }, __jsx("div", {
-    className: "row",
+    className: "row align-items-center",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 13
+      columnNumber: 12
     }
   }, __jsx("div", {
-    className: "col-md-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 15
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "col contenidoo-segundo",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 23
     }
   }, __jsx("div", {
     className: "icono",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 17
+      lineNumber: 12,
+      columnNumber: 27
     }
-  }, "  ", __jsx("img", {
-    src: "static/imgs/sauco.png",
+  }, __jsx("img", {
+    src: "static/imgs/cultivar.png",
     alt: "",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 42
+      lineNumber: 13,
+      columnNumber: 30
     }
-  }))), __jsx("div", {
-    className: "col-md-8",
+  })))), __jsx("div", {
+    className: "col",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 15
+      lineNumber: 17,
+      columnNumber: 19
+    }
+  }, __jsx("div", {
+    className: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 23
     }
   }, __jsx("h4", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 17
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 43
-    }
-  }, alias)), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 72
-    }
-  }), __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  }, __jsx("strong", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 43
-    }
-  }, planta)), __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 73
-    }
-  }), __jsx("p", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 17
-    }
-  }, "Las zanahorias se pueden consumir de muy diversas formas. Se suelen trocear, y se consumen crudas, cocidas, fritas o al vapor."))), __jsx("div", {
+    className: "col text-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 17
+      columnNumber: 26
     }
-  }, __jsx("p", {
+  }, __jsx("b", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 21
+      lineNumber: 19,
+      columnNumber: 56
     }
-  }, "Votos ", votos)), __jsx("div", {
+  }, alias), "       ", __jsx("b", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 77
+    }
+  }, "(", planta, ")"))), __jsx("p", {
+    className: "text-left puno",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 24
+    }
+  }, "Descripci\xF3n de t\xFA cultivo"), __jsx("p", {
+    className: "text-left puno",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 17
+      columnNumber: 24
     }
-  }, __jsx("p", {
+  }, "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dignissimos consequuntur cumque eaque incidunt? Ipsa cum repellat, quisquam ratione possimus voluptates. Aspernatur natus ducimus voluptatum ullam reprehenderit iste vitae minima!"), __jsx("div", {
+    className: "row cultibut",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 21
+      columnNumber: 23
     }
-  }, "comentarios ", comentarios.length))), __jsx("div", {
-    className: "separador",
+  }, __jsx("div", {
+    className: "col ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 11
+      lineNumber: 24,
+      columnNumber: 25
     }
   }, __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 38
+      lineNumber: 25,
+      columnNumber: 27
     }
-  }, ".")));
+  }, "Votos ", votos)), __jsx("div", {
+    className: "col ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 25
+    }
+  }, __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 27
+    }
+  }, "Comentarios ", comentarios.length)), __jsx("div", {
+    class: "col",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 25
+    }
+  }), __jsx("div", {
+    class: "col",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (cardCultivo);
@@ -322,7 +334,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Dinamicos\\cardPlanta.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Dinamicos\\cardPlanta.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -439,7 +451,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navegacion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navegacion */ "./components/Layaout/navegacion.jsx");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\footer.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\footer.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -581,7 +593,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../firebase */ "./firebase/index.js");
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\header.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\header.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -906,7 +918,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./components/Layaout/footer.jsx");
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\layaout.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\layaout.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1077,7 +1089,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\Layaout\\navegacion.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\Layaout\\navegacion.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1173,7 +1185,7 @@ const Navegacion = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\components\\UI\\buscador.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\components\\UI\\buscador.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -3047,7 +3059,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../firebase */ "./firebase/index.js");
 /* harmony import */ var _components_Dinamicos_cardPlanta__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Dinamicos/cardPlanta */ "./components/Dinamicos/cardPlanta.jsx");
-var _jsxFileName = "C:\\Users\\Daniel Serrano\\Documents\\Grandi\\pages\\perfil.jsx";
+var _jsxFileName = "C:\\Users\\JSP_1\\OneDrive\\Documents\\GitHub\\Grandi\\pages\\perfil.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -3118,91 +3130,85 @@ const Perfil = () => {
         columnNumber: 9
       }
     }, usuario && __jsx("div", {
-      id: "contenedor",
+      className: "container",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 48,
-        columnNumber: 15
+        columnNumber: 4
       }
     }, __jsx("div", {
-      className: "introduction",
+      className: "row justify-content-md-center",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 49,
-        columnNumber: 13
+        columnNumber: 15
       }
     }, __jsx("div", {
-      className: "row",
+      className: "col-md-auto usuario",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 50,
-        columnNumber: 15
-      }
-    }, __jsx("div", {
-      className: "col-md-4",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 17
+        columnNumber: 20
       }
     }, __jsx("div", {
       className: "icono",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
-        columnNumber: 19
+        lineNumber: 51,
+        columnNumber: 24
       }
-    }, "  ", __jsx("img", {
-      src: "static/imgs/foto_perfil.png",
+    }, __jsx("img", {
+      src: "static/imgs/usuario.png",
       alt: "",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 52,
-        columnNumber: 44
+        columnNumber: 28
       }
-    })), __jsx("br", {
+    })))), __jsx("div", {
+      className: "row justify-content-md-center",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 19
+        lineNumber: 56,
+        columnNumber: 14
       }
-    }), __jsx("h4", {
-      className: "text-center",
+    }, __jsx("h4", {
+      className: "col-md-auto planta",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 19
+        lineNumber: 57,
+        columnNumber: 16
       }
     }, __jsx("strong", {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 47
+        lineNumber: 57,
+        columnNumber: 51
       }
-    }, usuario.displayName)), __jsx("p", {
-      className: "text-center",
+    }, usuario.displayName))), __jsx("div", {
+      className: "row justify-content-md-center agrega",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
-        columnNumber: 19
+        lineNumber: 59,
+        columnNumber: 14
       }
-    }, "\xA1Amante de las plantas y entusiasta!"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      href: "/Nuevo-cultivo",
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      className: "col-md-auto",
+      href: "/agregaNuevo-cultivo",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 19
+        lineNumber: 60,
+        columnNumber: 14
       }
     }, __jsx("button", {
       type: "button",
@@ -3211,46 +3217,62 @@ const Perfil = () => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 61,
         columnNumber: 21
       }
-    }, "Agrergar Cultivo"))), __jsx("div", {
-      className: "col-md-8",
+    }, "Agregar Cultivo"))), __jsx("br", {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
-        columnNumber: 17
+        lineNumber: 69,
+        columnNumber: 12
       }
-    }, __jsx("h4", {
+    }), __jsx("hr", {
+      className: "linea-separada",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 19
+        lineNumber: 69,
+        columnNumber: 18
       }
-    }, __jsx("strong", {
+    }), __jsx("br", {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
-        columnNumber: 23
-      }
-    }, "TUS CULTIVOS")), __jsx("br", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 66,
-        columnNumber: 19
+        lineNumber: 69,
+        columnNumber: 51
       }
     }), __jsx("div", {
+      class: "row justify-content-md-center",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71,
+        columnNumber: 13
+      }
+    }, __jsx("h1", {
+      className: "col-md-auto planta",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 18
+      }
+    }, __jsx("b", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72,
+        columnNumber: 53
+      }
+    }, "Tus Cultivos"))), __jsx("div", {
       id: "interior",
       className: "row",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67,
-        columnNumber: 19
+        lineNumber: 74,
+        columnNumber: 13
       }
     }, cultivos.map(element => __jsx(_components_Dinamicos_cardCultivo__WEBPACK_IMPORTED_MODULE_2__["default"] //states
     , {
@@ -3259,17 +3281,17 @@ const Perfil = () => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 76,
         columnNumber: 23
       }
-    })))))))));
+    }))))));
   } else {
     //return router.push('/login');  // enrutador 
     return __jsx(LoginPage, {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89,
+        lineNumber: 93,
         columnNumber: 13
       }
     });
@@ -3287,7 +3309,7 @@ const Perfil = () => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Daniel Serrano\Documents\Grandi\pages\perfil.jsx */"./pages/perfil.jsx");
+module.exports = __webpack_require__(/*! C:\Users\JSP_1\OneDrive\Documents\GitHub\Grandi\pages\perfil.jsx */"./pages/perfil.jsx");
 
 
 /***/ }),
