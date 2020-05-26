@@ -121,7 +121,7 @@ const Login = () => {
   async function iniciasSesion() {
     try {
       await _firebase__WEBPACK_IMPORTED_MODULE_3__["default"].login(email, password);
-      next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push('/');
+      return next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push('/');
     } catch (error) {
       console.error('Hubo un error al autenticar', error.message); //guardarError
     }

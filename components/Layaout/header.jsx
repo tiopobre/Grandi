@@ -1,4 +1,5 @@
 import React, {useContext , Fragment} from 'react';
+import Router from 'next/router';
 import Buscador from '../UI/buscador'
 import Navegacion from './navegacion'
 import Link from 'next/link'
@@ -60,7 +61,9 @@ const {usuario,firebase} = useContext(FirebaseContext);
                                         
                                         <li>
                                             <button  className="Cerrar nav-link"
-                                                onClick = {() => firebase.cerrarSesion()}
+                                                onClick = {() => firebase.cerrarSesion().then(function(){
+                                                    return Router.push('/');
+                                                })}
                                             >Cerrar sesión</button>
                                         </li>
                                         

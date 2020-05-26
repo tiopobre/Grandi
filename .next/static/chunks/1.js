@@ -130,9 +130,7 @@ var Login = function Login() {
             return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(_firebase__WEBPACK_IMPORTED_MODULE_4__["default"].login(email, password));
 
           case 3:
-            next_router__WEBPACK_IMPORTED_MODULE_3___default.a.push('/');
-            _context.next = 9;
-            break;
+            return _context.abrupt("return", next_router__WEBPACK_IMPORTED_MODULE_3___default.a.push('/'));
 
           case 6:
             _context.prev = 6;
