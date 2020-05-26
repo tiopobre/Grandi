@@ -10,7 +10,7 @@ const cardCultivo = ({cultivo}) => {
                     <div>
                       <div className="col contenidoo-segundo">
                           <div className="icono"> 
-                             <img src="static/imgs/cultivar.png" alt=""/>
+                             <img src={urlImg} alt=""/>
                           </div>
                       </div>
                   </div>

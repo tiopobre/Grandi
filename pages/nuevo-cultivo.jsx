@@ -30,26 +30,44 @@ const nuevoCultivo = () => {
     const {usuario, firebase} = useContext(FirebaseContext);
     
     // Imagenes
-    
+    //
     function cambioImagen (e){
         if(e.target.files[0]){
             setImagen(e.target.files[0]);
         }
-       // console.log(uniqid.process());
-       //crear id imagen
-        setUrlImagen(uniqid('cultivo'));
-        
-        console.log( 'uniqId' ,uniqid('cultivo'));
     }
 
-    const handleURL = () =>{
+    const Enviar_Firebase = () =>{
+        console.log("entra handle url");
         firebase.storage
         .ref("test_imagenes")
         .child(imagen.name)
         .getDownloadURL()
         .then( url =>{
-             console.log(url);
-             setUrlImagen(url);
+            console.log("url", url);
+            setUrlImagen(url);
+            console.log("urlImagen", urlImagen);
+            // Crear cultivo
+            const cultivo = {
+                planta: planta,
+                alias: alias,
+                fechaIni: fechaIni,
+                descripcion: descripcion,
+                urlImg: url,
+                comentarios: [],
+                votos: 0,
+                creador: {
+                    id : usuario.uid,
+                    nombre: usuario.displayName
+                }
+            }
+            
+            //insertar en la base de datos
+            firebase.db.collection('cultivos').add(cultivo)
+            .then(function (){
+                console.log ("se subió cultivo");
+                return Router.push('/perfil');
+            });
         }
         )
     }
@@ -60,27 +78,13 @@ const nuevoCultivo = () => {
             if(!usuario){
                 return Router.push('/login');
             }
-            console.log("Usuario", usuario.id)
-            // Crear cultivo
-            const cultivo = {
-                planta: planta,
-                alias: alias,
-                fechaIni: fechaIni,
-                descripcion: descripcion,
-                urlImg: urlImagen,
-                comentarios: [],
-                votos: 0,
-                creador: {
-                    id : usuario.uid,
-                    nombre: usuario.displayName
-                }
-            }
-            
-            //insertar en la base de datos
-            firebase.db.collection('cultivos').add(cultivo);
-            firebase.storage.ref('test_imagenes').child(urlImagen).put(imagen);
-            return Router.push('/perfil');
-        }
+
+            firebase.storage.ref('test_imagenes').child(imagen.name).put(imagen)
+            .then(function(){
+                console.log("se subi imagen a firebae");
+                Enviar_Firebase();
+            } );  
+    }
 
     return ( 
         <>
